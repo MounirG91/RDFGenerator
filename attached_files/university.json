@@ -1,0 +1,92 @@
+{"universities":
+[
+{
+  "name": "ENSI",
+  "founded_in": "1984",
+  "website": "http://www.ensi.rnu.tn/",
+  "type": "Engineering School",
+  "address": "Campus Universitaire de la Manouba, Manouba 2010, Tunisie",
+  "director": "Faouzi GHORBEL",
+  "numberOfStudents": "1200",
+  "numberOfTeachers": "90",
+  "languageRegime": "French and English"
+  },
+ {
+  "name": "National Engineering School of Sfax, Tunisia.",
+  "founded_in": "1983",
+  "website": "http://www.enis.rnu.tn/",
+  "type": "Engineering School",
+  "address": "Sfax 3038, Tunisie",
+  "director": "Mohamed Jmail",
+  "numberOfStudents": "1200",
+  "numberOfTeachers": "",
+  "languageRegime": "French and English"
+  },
+  {
+  "name": "Polytech'Nice-Sophia",
+  "founded_in": "2005",
+  "website": "http://www.polytechnice.fr/",
+  "type": "Engineering School",
+  "address": "930 Route des Colles, 06410 Biot",
+  "director": "Philippe Gourbesville",
+  "numberOfStudents": "1100",
+  "numberOfTeachers": "92",
+  "languageRegime": "French"
+  },
+  {
+  "name": "École centrale de Lille",
+  "founded_in": "1854 - 1872",
+  "website": "http://www.ec-lille.fr/",
+  "type": "Engineering School",
+  "address": "Cité Scientifique, 59651 Villeneuve-d'Ascq",
+  "director": "Emmanuel Duflos",
+  "numberOfStudents": "1500",
+  "numberOfTeachers": "",
+  "languageRegime": "French"
+  },
+  {
+  "name": "Université Pierre et Marie Curie (Paris VI)",
+  "founded_in": "1er janvier 1971",
+  "website": "http://www.upmc.fr/",
+  "type": "Public University",
+  "address": "4 Place Jussieu, 75005 Paris",
+  "director": "Jean Chambaz",
+  "numberOfStudents": "32000",
+  "numberOfTeachers": "2483",
+  "languageRegime": "French"
+  },
+  {
+  "name": "Université Blaise Pascal (Clermont-II) - Clermont-Ferrand",
+  "founded_in": "1976",
+  "website": "http://www.univ-bpclermont.fr/",
+  "type": "Public University",
+  "address": "24 Avenue des Landais, 63170 Aubière",
+  "director": "Mathias Bernard",
+  "numberOfStudents": "1223",
+  "numberOfTeachers": "16007",
+  "languageRegime": "French"
+  },  
+  {
+  "name": "Preparatory Institute of Engineering Studies of Tunis, Tunisia.",
+  "founded_in": "24 avril 1995",
+  "website": "http://www.ipeit.rnu.tn/",
+  "type": "Preparatory cycle for engineering schools",
+  "address": "Montfleury, Tunisie",
+  "director": "",
+  "numberOfStudents": "",
+  "numberOfTeachers": "",
+  "languageRegime": "French"
+  },
+  {
+  "name": "École Nationale des Sciences de l'Informatique",
+  "founded_in": "1984",
+  "website": "http://www.ensi.rnu.tn/",
+  "type": "Engineering School",
+  "address": "Campus Universitaire de la Manouba, Manouba 2010, Tunisie",
+  "director": "Faouzi GHORBEL",
+  "numberOfStudents": "1200",
+  "numberOfTeachers": "90",
+  "languageRegime": "French and English"
+  }
+  ]
+}

@@ -1,0 +1,32 @@
+{"certifications" :
+[ 
+ {
+  "title": "TOEIC",
+  "hasField": "Languages",
+  "relatedSkill": "English",
+  "createdBy": "l'ETS : Educational Testing Service",
+  "administeredBy": "l'ETS : Educational Testing Service",
+  "website": "https://www.ets.org/fr/toeic",
+  "maximumScore": "990"
+  },
+ {
+  "title": "SCJP",
+  "hasField": "IT",
+  "relatedSkill": "Java",
+  "createdBy": "Oracle",
+  "administeredBy": "Oracle",
+  "website": "http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=39",
+  "maximumScore": "100"
+  },
+
+  {
+  "title": "LPIC-1",
+  "hasField": "IT",
+  "relatedSkill": "Linux",
+  "createdBy": "Linux Professional Institute Inc.",
+  "administeredBy": "Linux Professional Institute Inc.",
+  "website": "https://www.lpi.org/certification/",
+  "maximumScore": "800"
+  },  
+]
+}

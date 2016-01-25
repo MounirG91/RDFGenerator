@@ -1,0 +1,144 @@
+{"skills":
+[ 
+  {
+  "name": "Java",
+  "paradigm": "Multi-paradigm: object-oriented (class-based), structured, imperative, generic, reflective, concurrent",
+  "dateOfFirstVersion": "23 mai 1995",
+  "lastVersion": "Version 8 Update 71",
+  "author": "Sun Microsystems",
+  "developer": "Oracle Corporation",
+  "license": "GNU GPL",
+  "website": "http://www.java.com/fr/"
+  },
+  {
+  "name": "C++",
+  "paradigm": "Multi-paradigm: procedural, functional, object-oriented, generic",
+  "dateOfFirstVersion": "1983",
+  "lastVersion": "ISO/IEC TS 19217:2015",
+  "author": "Bjarne Stroustrup",
+  "developer": "ISO/IEC JTC 1/SC 22",
+  "license": "GPL",
+  "website": "https://isocpp.org/"
+  },
+  {
+  "name": "JavaScript",
+  "paradigm": "Multi-paradigm: scripting, object-oriented (prototype-based), imperative, functional",
+  "dateOfFirstVersion": "May 1995",
+  "lastVersion": "ECMAScript 6",
+  "author": "Brendan Eich",
+  "developer": "Netscape Communications Corporation, Mozilla Foundation, Ecma International",
+  "license": "",
+  "website": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+  }, 
+  {
+  "name": "PHP",
+  "dateOfFirstVersion": "1994",
+  "lastVersion": "7.0.1",
+  "author": "Rasmus Lerdorf",
+  "developer": "Zend Technologies",
+  "paradigm": "Imperative, functional, object-oriented, procedural, reflective",
+  "license": "PHP License",
+  "website": "https://secure.php.net/"
+  },
+  {
+  "name": "Java Enterprise Edition",
+  "dateOfFirstVersion": "December 12, 1999",
+  "lastVersion": "Java EE 8",
+  "author": "Sun Microsystems",
+  "developer": "Oracle Corporation",
+  "paradigm": "Java EE",
+  "license": "",
+  "website": "http://www.oracle.com/technetwork/java/javaee/overview/index.html"
+  },
+  {
+  "name": "Linux",
+  "dateOfFirstVersion": "5 October 1991",
+  "lastVersion": "Core 4.3",
+  "author": "Linus Torvalds",
+  "developer": "Community",
+  "paradigm": "OS family: Unix-like",
+  "license": "GPLv2",
+  "website": "http://www.linux.org/"
+  },
+  {
+  "name": "Android",
+  "dateOfFirstVersion": "11 novembre 2007	",
+  "lastVersion": "6.0.1",
+  "author": "Open Handset Alliance and Google",
+  "developer": "Google",
+  "paradigm": "",
+  "license": "Licence Apache 2.0",
+  "website": "http://www.android.com/"
+  },
+  {
+  "name": "SQL",
+  "dateOfFirstVersion": "1974",
+  "lastVersion": "SQL:2011",
+  "author": "Donald D. Chamberlin and Raymond F. Boyce",
+  "developer": "ISO/IEC",
+  "paradigm": "Multi-paradigm: declarative, procedural",
+  "license": "",
+  "website": ""
+  },
+  {
+  "name": "UML",
+  "dateOfFirstVersion": "1997",
+  "lastVersion": "2.5",
+  "author": "Grady Booch, James Rumbaugh and Ivar Jacobson",
+  "developer": "Object Management Group",
+  "paradigm": "Modeling language",
+  "license": "",
+  "website": "http://www.uml.org/"
+  },
+  {
+  "name": "MySQL",
+  "dateOfFirstVersion": "23 May 1995",
+  "lastVersion": "5.7.10",
+  "author": "MySQL AB",
+  "developer": "Oracle Corporation",
+  "paradigm": "",
+  "license": "GPLv2",
+  "website": "http://www.mysql.com/"
+  },
+  {
+  "name": "SolidWorks",
+  "dateOfFirstVersion": "1995",
+  "lastVersion": "SolidWorks 2016 SP1 ",
+  "author": "Jon Hirschtick",
+  "developer": "Dassault Systèmes SolidWorks Corp.",
+  "paradigm": "",
+  "license": "Proprietary",
+  "website": "http://www.solidworks.com/"
+  },
+  {
+  "name": "Python",
+  "dateOfFirstVersion": "1991",
+  "lastVersion": "3.5.1",
+  "author": "Guido van Rossum",
+  "developer": "Python Software Foundation",
+  "paradigm": "Multi-paradigm: object-oriented, imperative, functional, procedural, reflective",
+  "license": "Python Software Foundation License",
+  "website": "https://www.python.org/"
+  },
+  {
+  "name": "HTML5",
+  "dateOfFirstVersion": "28 October 2014",
+  "lastVersion": "HTML 5.1",
+  "author": "World Wide Web Consortium and WHATWG",
+  "developer": "World Wide Web Consortium and WHATWG",
+  "paradigm": "",
+  "license": "",
+  "website": "https://www.w3.org/"
+  },
+  {
+  "name": "C",
+  "dateOfFirstVersion": "1972",
+  "lastVersion": "C11",
+  "author": "Dennis Ritchie",
+  "developer": "Bell Labs",
+  "paradigm": "Imperative (procedural), structured",
+  "license": "",
+  "website": "http://www.open-std.org/jtc1/sc22/wg14/"
+  } 
+  ]
+}
