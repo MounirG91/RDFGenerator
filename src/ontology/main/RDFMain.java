@@ -14,7 +14,7 @@ public class RDFMain {
 		professional = parser.jsonToProfessional("E:\\Professional_5.json");
 		
 		RDFManager rdfManager=new RDFManager();
-		rdfManager.professionalToRDF(professional);
+		rdfManager.professionalToRDF(professional); 
 	}
 
 }

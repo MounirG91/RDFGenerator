@@ -19,22 +19,23 @@ import ontology.model.Skill;
 public class RDFManager {
 
 	public void professionalToRDF(Professional professional) {
-		String mainUri = "http://linkedin.com/";
-		String animalUri = mainUri + "classes#Animal";
-		String personUri = mainUri + "classes#Person";
-		String professionalUri = mainUri + "classes#Professional";
-		String educationUri = mainUri + "classes#Education";
-		String postUri = mainUri + "classes#Post";
+		
+		String mainUri = "http://linkedin_project.com/profile.rdfs";
+		String animalUri = mainUri + "#Animal";
+		String personUri = mainUri + "#Person";
+		String professionalUri = mainUri + "#Professional";
+		String educationUri = mainUri + "#Education";
+		String postUri = mainUri + "#Post";
 		String past_postUri = postUri + "/Past_post";
 		String current_postUri = postUri + "/Current_Post";
-		String languageUri = mainUri + "classes#Language";
-		String skillUri = mainUri + "classes#Skill";
-		String projectUri = mainUri + "classes#Project";
-		String certificationUri = mainUri + "classes#Certification";
-		String groupUri = mainUri + "classes#Group";
-		String organizationUri = mainUri + "classes#Organization";
-		String companyUri = mainUri + "classes#Company";
-		String universityUri = mainUri + "classes#University";
+		String languageUri = mainUri + "#Language";
+		String skillUri = mainUri + "#Skill";
+		String projectUri = mainUri + "#Project";
+		String certificationUri = mainUri + "#Certification";
+		String groupUri = mainUri + "#Group";
+		String organizationUri = mainUri + "#Organization";
+		String companyUri = mainUri + "#Company";
+		String universityUri = mainUri + "#University";
 
 		String propertyNameUri = mainUri + "property#name";
 		String propertyFirstNameUri = mainUri + "property#first_name";
@@ -60,53 +61,53 @@ public class RDFManager {
 		String propertyHasFriendUri = mainUri + "property#hasFriend";
 		String propertyHasRecommandedVisitorUri = mainUri + "property#hasRecommandedVisitor";
 
-		String propertyHasTitleUri = mainUri + "property#hasTitle";
+		String propertyHasTitleUri = mainUri + "#hasTitle";
 
-		String propertyHasNameUri = mainUri + "property#hasName";
-		String propertyStartDateUri = mainUri + "property#startDate";
-		String propertyEndDateUri = mainUri + "property#endDate";
-		String propertyDurationUri = mainUri + "property#duration";
-		String propertyDescriptionUri = mainUri + "property#description";
+		String propertyHasNameUri = mainUri + "#hasName";
+		String propertyStartDateUri = mainUri + "#startDate";
+		String propertyEndDateUri = mainUri + "#endDate";
+		String propertyDurationUri = mainUri + "#duration";
+		String propertyDescriptionUri = mainUri + "#description";
 
-		String propertyDoneInUniversityUri = mainUri + "property#doneInUniversity";
-		String propertyHasMajorUri = mainUri + "property#hasMajor";
-		String propertyHasDegreeUri = mainUri + "property#hasDegree";
+		String propertyDoneInUniversityUri = mainUri + "#doneInUniversity";
+		String propertyHasMajorUri = mainUri + "#hasMajor";
+		String propertyHasDegreeUri = mainUri + "#hasDegree";
 
-		String propertyTookPlaceInUri = mainUri + "property#tookPlaceIn";
+		String propertyTookPlaceInUri = mainUri + "#tookPlaceIn";
 
-		String propertyHasLinkUri = mainUri + "property#hasLink";
+		String propertyHasLinkUri = mainUri + "#hasLink";
 
-		String propertyHasAssociatesUri = mainUri + "property#hasAssociates";
+		String propertyHasAssociatesUri = mainUri + "#hasAssociates";
 
-		String propertyHasWebsiteUri = mainUri + "property#hasWebsite";
+		String propertyHasWebsiteUri = mainUri + "#hasWebsite";
 
-		String propertryFoundedInUri = mainUri + "property#foundedIn";
-		String propertyHasTypeUri = mainUri + "property#hasType";
-		String propertyHasAdressUri = mainUri + "property#hasAdress";
+		String propertryFoundedInUri = mainUri + "#foundedIn";
+		String propertyHasTypeUri = mainUri + "#hasType";
+		String propertyHasAdressUri = mainUri + "#hasAdress";
 
-		String propertyLineOfBusineesUri = mainUri + "property#lineOfBusiness";
-		String propertyHasEffectiveUri = mainUri + "property#hasEffective";
-		String propertyHasFounderUri = mainUri + "property#hasFounder";
-		String propertyHasHeadQuartersUri = mainUri + "property#hasHeadQuarters";
+		String propertyLineOfBusineesUri = mainUri + "#lineOfBusiness";
+		String propertyHasEffectiveUri = mainUri + "#hasEffective";
+		String propertyHasFounderUri = mainUri + "#hasFounder";
+		String propertyHasHeadQuartersUri = mainUri + "#hasHeadQuarters";
 
-		String propertyHasDirectorUri = mainUri + "property#hasDirector";
-		String propertyHasNumberOfStudentsUri = mainUri + "property#hasNumberOfStudents";
-		String propertyHasNumberOfTeachersUri = mainUri + "property#hasNumberOfTeachers";
-		String propertyHasLanguageRegimeUri = mainUri + "property#hasLanguageRegime";
+		String propertyHasDirectorUri = mainUri + "#hasDirector";
+		String propertyHasNumberOfStudentsUri = mainUri + "#hasNumberOfStudents";
+		String propertyHasNumberOfTeachersUri = mainUri + "#hasNumberOfTeachers";
+		String propertyHasLanguageRegimeUri = mainUri + "#hasLanguageRegime";
 
-		String propertyFirstAppearedUri = mainUri + "property#firstAppeared";
-		String propertyHasParadigmUri = mainUri + "property#hasParadigm";
-		String propertyLastVersionUri = mainUri + "property#hasLastVersion";
-		String propertyDesignedByUri = mainUri + "property#designedBy";
-		String propertyHasDeveloperUri = mainUri + "property#hasDeveloper";
-		String propertyHasLicenceUri = mainUri + "property#hasLicence";
+		String propertyFirstAppearedUri = mainUri + "#firstAppeared";
+		String propertyHasParadigmUri = mainUri + "#hasParadigm";
+		String propertyLastVersionUri = mainUri + "#hasLastVersion";
+		String propertyDesignedByUri = mainUri + "#designedBy";
+		String propertyHasDeveloperUri = mainUri + "#hasDeveloper";
+		String propertyHasLicenceUri = mainUri + "#hasLicence";
 
-		String propertyHasFieldUri = mainUri + "property#hasField";
-		String propertyRelatedSkillUri = mainUri + "property#relaredSkill";
-		String propertyCreatedByUri = mainUri + "property#createdBy";
-		String propertyAdministerdByUri = mainUri + "property#administredBy";
-		String propertyHasMaximumScoreUri = mainUri + "property#hasMaximumScore";
-		String propertyHasScoreUri = mainUri + "property#hasScore";
+		String propertyHasFieldUri = mainUri + "#hasField";
+		String propertyRelatedSkillUri = mainUri + "#relaredSkill";
+		String propertyCreatedByUri = mainUri + "#createdBy";
+		String propertyAdministerdByUri = mainUri + "#administredBy";
+		String propertyHasMaximumScoreUri = mainUri + "#hasMaximumScore";
+		String propertyHasScoreUri = mainUri + "#hasScore";
 
 		Model model = ModelFactory.createDefaultModel();
 
@@ -140,6 +141,7 @@ public class RDFManager {
 		model.createResource(universityUri);// Ressource
 											// University
 
+		
 		Property name = model.createProperty(propertyNameUri);
 		model.setNsPrefix("name", propertyNameUri);
 
@@ -313,6 +315,8 @@ public class RDFManager {
 
 		Property hasScore = model.createProperty(propertyHasScoreUri);
 		model.setNsPrefix("hasScore", propertyHasScoreUri);
+		
+		
 
 		Resource professionalProfile = model
 				.createResource(professionalUri + "/Profile/" + professional.getName() + "/");
@@ -505,9 +509,9 @@ public class RDFManager {
 					String associate = associates.next();
 					Resource associateProfile = model.createResource(postUri + "/" + professional.getName() + "/"
 							+ project.getTitle() + "/Associate/" + associate);
-					model.add(professionalProfile, hasAssociates, associateProfile);
+					model.add(projectProfile, hasAssociates, associateProfile);
 					if (associate != null)
-						model.add(projectProfile, hasName, associate);
+						model.add(associateProfile, hasName, associate);
 				}
 			}
 

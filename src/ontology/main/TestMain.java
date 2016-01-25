@@ -4,9 +4,11 @@ import java.io.IOException;
 import java.text.ParseException;
 
 import ontology.model.Professional;
+import ontology.model.University;
 import ontology.parser.CertificationJSON;
 import ontology.parser.Parser;
 import ontology.parser.SkillJSON;
+import ontology.parser.UniversityJSON;
 
 public class TestMain {
 	public static void main(String[] args) throws NullPointerException, ParseException, IOException {
@@ -18,13 +20,23 @@ public class TestMain {
 		CertificationJSON certificationJSON=new CertificationJSON();
 		certificationJSON = parser.jsonToCertification("E:\\certification.json");
 		
-		professional.showAllCertifications(certificationJSON.getCertifications());
-		//professional.toListOfCertification(certificationJSON.getCertifications());
-		//professional.showAllCertifications(professional.getCertificationsOfprofessional());
-	
 		SkillJSON skillJSON=new SkillJSON();
 		skillJSON = parser.jsonToSkill("E:\\skill.json");
 		skillJSON.showAllSkills(skillJSON.getSkills());
+		
+		UniversityJSON universityJSON=new UniversityJSON();
+		universityJSON = parser.jsonToUniversity("E:\\university.json");
+		universityJSON.showAllUniversities(universityJSON.getUniversities());
+		
+		certificationJSON.showAllCertifications(certificationJSON.getCertifications());
+		
+		
+		
+		
+		//professional.toListOfCertification(certificationJSON.getCertifications());
+		//professional.showAllCertifications(professional.getCertificationsOfprofessional());
+	
+		
 	     
 	}
 }

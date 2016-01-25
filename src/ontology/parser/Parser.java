@@ -47,4 +47,16 @@ public class Parser {
 		}
 		return skillJSON;
 	}
+	
+	public UniversityJSON jsonToUniversity(String fileLocation) throws NullPointerException {
+		Gson gson = new Gson();
+		UniversityJSON universityJSON=new UniversityJSON();
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(fileLocation));
+			universityJSON = gson.fromJson(br, UniversityJSON.class);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return universityJSON;
+	}
 }

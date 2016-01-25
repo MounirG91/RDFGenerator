@@ -1,5 +1,6 @@
 package ontology.parser;
 
+import java.util.Iterator;
 import java.util.List;
 
 import ontology.model.Certification;
@@ -24,6 +25,14 @@ public class CertificationJSON {
 
 	public void setCertifications(List<Certification> certifications) {
 		this.certifications = certifications;
+	}
+
+	public void showAllCertifications(List<Certification> certifications) throws NullPointerException {
+		Iterator<Certification> iterator = certifications.iterator();
+		while (iterator.hasNext()) {
+			Certification certification = iterator.next();
+			System.out.println(certification.toString());
+		}
 	}
 
 }
