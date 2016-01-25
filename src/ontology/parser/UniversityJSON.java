@@ -3,7 +3,6 @@ package ontology.parser;
 import java.util.Iterator;
 import java.util.List;
 
-import ontology.model.Certification;
 import ontology.model.University;;
 
 public class UniversityJSON {
@@ -26,7 +25,7 @@ public class UniversityJSON {
 	public void setUniversities(List<University> universities) {
 		this.universities = universities;
 	}
-	
+
 	public void showAllUniversities(List<University> universities) throws NullPointerException {
 		Iterator<University> iterator = universities.iterator();
 		while (iterator.hasNext()) {
