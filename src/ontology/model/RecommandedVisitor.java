@@ -1,6 +1,6 @@
 package ontology.model;
 
-public class RecommandedVisitor {
+public class RecommandedVisitor  {
 
 	private String title, link, name, company;
 

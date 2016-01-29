@@ -131,211 +131,99 @@ public class RDFManager {
 		String propertyHasMaximumScoreUri = mainUri + "#hasMaximumScore";
 		String propertyHasScoreUri = mainUri + "#hasScore";
 	
+		model.setNsPrefix("lp", mainUri+"#");
+
 		//declarer les propriétés
 		Property name = model.createProperty(propertyNameUri);
-		model.setNsPrefix("name", propertyNameUri);
-
 		Property first_name = model.createProperty(propertyFirstNameUri);
-		model.setNsPrefix("firstName", propertyFirstNameUri);
-
 		Property last_name = model.createProperty(propertyLastNameUri);
-		model.setNsPrefix("lastName", propertyLastNameUri);
-
 		Property title = model.createProperty(propertyTitleUri);
-		model.setNsPrefix("title", propertyTitleUri);
-
 		Property summary = model.createProperty(propertySummaryUri);
-		model.setNsPrefix("summary", propertySummaryUri);
-
 		Property location = model.createProperty(propertyLocationUri);
-		model.setNsPrefix("location", propertyLocationUri);
-
 		Property number_of_connections = model.createProperty(propertyNumberOfConnectionsUri);
-		model.setNsPrefix("numberOfConnections", propertyNumberOfConnectionsUri);
-
 		Property country = model.createProperty(propertyCountryUri);
-		model.setNsPrefix("country", propertyCountryUri);
-
 		Property industry = model.createProperty(propertyIndustryUri);
-		model.setNsPrefix("industry", propertyIndustryUri);
-
 		Property picture = model.createProperty(propertyPictureUri);
-		model.setNsPrefix("picture", propertyPictureUri);
-
 		Property linkedin_url = model.createProperty(propertyLinkedinURLUri);
-		model.setNsPrefix("linkedinURL", propertyLinkedinURLUri);
-
 		Property hasSkill = model.createProperty(propertyHasSkillUri);
-		model.setNsPrefix("hasSkill", propertyHasSkillUri);
-
 		Property didProject = model.createProperty(propertyDidProjectUri);
-		model.setNsPrefix("didProject", propertyDidProjectUri);
-
 		Property belongToGroup = model.createProperty(propertyBelongToGroupUri);
-		model.setNsPrefix("belongToGroup", propertyBelongToGroupUri);
-
 		Property hasEducation = model.createProperty(propertyHasEducationUri);
-		model.setNsPrefix("hasEducation", propertyHasEducationUri);
-
 		Property hasCertification = model.createProperty(propertyHasCertificationUri);
-		model.setNsPrefix("hasCertification", propertyHasCertificationUri);
-
 		Property speacksLanguage = model.createProperty(propertrySpeacksLanguageUri);
-		model.setNsPrefix("speacksLanguage", propertrySpeacksLanguageUri);
-
 		Property joinOrganization = model.createProperty(propertyJoinOrganizationUri);
-		model.setNsPrefix("joinOrganization", propertyJoinOrganizationUri);
-
 		Property hadPosition = model.createProperty(propertyHadPositionUri);
-		model.setNsPrefix("hadPosition", propertyHadPositionUri);
-
 		Property hasPosition = model.createProperty(propertyHasPositionUri);
-		model.setNsPrefix("hasPosition", propertyHasPositionUri);
-
 		Property hasFriend = model.createProperty(propertyHasFriendUri);
-		model.setNsPrefix("hasFriend", propertyHasFriendUri);
-
 		Property hasRecommandedVisitor = model.createProperty(propertyHasRecommandedVisitorUri);
-		model.setNsPrefix("hasRecommandedVisitor", propertyHasRecommandedVisitorUri);
-
 		Property hasTitle = model.createProperty(propertyHasTitleUri);
-		model.setNsPrefix("hasTitle", propertyHasTitleUri);
-
 		Property hasName = model.createProperty(propertyHasNameUri);
-		model.setNsPrefix("hasName", propertyHasNameUri);
-
 		Property startDate = model.createProperty(propertyStartDateUri);
-		model.setNsPrefix("startDate", propertyStartDateUri);
-
 		Property endDate = model.createProperty(propertyEndDateUri);
-		model.setNsPrefix("endDate", propertyEndDateUri);
-
 		Property duration = model.createProperty(propertyDurationUri);
-		model.setNsPrefix("duration", propertyDurationUri);
-
 		Property description = model.createProperty(propertyDescriptionUri);
-		model.setNsPrefix("description", propertyDescriptionUri);
-
 		Property doneInUniversity = model.createProperty(propertyDoneInUniversityUri);
-		model.setNsPrefix("doneInUniversity", propertyDoneInUniversityUri);
-
 		Property hasMajor = model.createProperty(propertyHasMajorUri);
-		model.setNsPrefix("hasMajor", propertyHasMajorUri);
-
 		Property hasDegree = model.createProperty(propertyHasDegreeUri);
-		model.setNsPrefix("hasDegree", propertyHasDegreeUri);
-
 		Property tookPlaceIn = model.createProperty(propertyTookPlaceInUri);
-		model.setNsPrefix("tookPlaceIn", propertyTookPlaceInUri);
-
 		Property hasLink = model.createProperty(propertyHasLinkUri);
-		model.setNsPrefix("hasLink", propertyHasLinkUri);
-
 		Property hasAssociates = model.createProperty(propertyHasAssociatesUri);
-		model.setNsPrefix("hasAssociates", propertyHasAssociatesUri);
-
 		Property hasWebsite = model.createProperty(propertyHasWebsiteUri);
-		model.setNsPrefix("hasWebsite", propertyHasWebsiteUri);
-
 		Property foundedIn = model.createProperty(propertryFoundedInUri);
-		model.setNsPrefix("foundedIn", propertryFoundedInUri);
-
 		Property hasType = model.createProperty(propertyHasTypeUri);
-		model.setNsPrefix("hasType", propertyHasTypeUri);
-
 		Property hasAdress = model.createProperty(propertyHasAdressUri);
-		model.setNsPrefix("hasAdress", propertyHasAdressUri);
-
 		Property lineOfBusiness = model.createProperty(propertyLineOfBusineesUri);
-		model.setNsPrefix("lineOfBusiness", propertyLineOfBusineesUri);
-
 		Property hasEffective = model.createProperty(propertyHasEffectiveUri);
-		model.setNsPrefix("hasEffective", propertyHasEffectiveUri);
-
 		Property hasFounded = model.createProperty(propertyHasFoundedUri);
-		model.setNsPrefix("hasFounder", propertyHasFoundedUri);
-
 		Property hasHeadquarters = model.createProperty(propertyHasHeadQuartersUri);
-		model.setNsPrefix("hasHeadquarters", propertyHasHeadQuartersUri);
-
 		Property hasDirector = model.createProperty(propertyHasDirectorUri);
-		model.setNsPrefix("hasDirector", propertyHasDirectorUri);
-
 		Property hasNumberOfStudents = model.createProperty(propertyHasNumberOfStudentsUri);
-		model.setNsPrefix("hasNumberOfStudents", propertyHasNumberOfStudentsUri);
-
 		Property hasNumberOfTeachers = model.createProperty(propertyHasNumberOfTeachersUri);
-		model.setNsPrefix("hasNumberOfTeachers", propertyHasNumberOfTeachersUri);
-
 		Property hasLanguageRegime = model.createProperty(propertyHasLanguageRegimeUri);
-		model.setNsPrefix("hasLanguageRegime", propertyHasLanguageRegimeUri);
-
 		Property firstAppeared = model.createProperty(propertyFirstAppearedUri);
-		model.setNsPrefix("firstAppeared", propertyFirstAppearedUri);
-
 		Property hasParadigm = model.createProperty(propertyHasParadigmUri);
-		model.setNsPrefix("hasParadigm", propertyHasParadigmUri);
-
 		Property lastVersion = model.createProperty(propertyLastVersionUri);
-		model.setNsPrefix("lastVersion", propertyLastVersionUri);
-
 		Property designedBy = model.createProperty(propertyDesignedByUri);
-		model.setNsPrefix("designedBy", propertyDesignedByUri);
-
 		Property hasDeveloper = model.createProperty(propertyHasDeveloperUri);
-		model.setNsPrefix("hasDeveloper", propertyHasDeveloperUri);
-
 		Property hasLicence = model.createProperty(propertyHasLicenceUri);
-		model.setNsPrefix("hasLicence", propertyHasLicenceUri);
-
 		Property relatedSkill = model.createProperty(propertyRelatedSkillUri);
-		model.setNsPrefix("relatedSkill", propertyRelatedSkillUri);
-
 		Property createdBy = model.createProperty(propertyCreatedByUri);
-		model.setNsPrefix("createdBy", propertyCreatedByUri);
-
 		Property administredBy = model.createProperty(propertyAdministerdByUri);
-		model.setNsPrefix("administredBy", propertyAdministerdByUri);
-
 		Property hasMaximumScore = model.createProperty(propertyHasMaximumScoreUri);
-		model.setNsPrefix("hasMaximumScore", propertyHasMaximumScoreUri);
-
 		Property hasScore = model.createProperty(propertyHasScoreUri);
-		model.setNsPrefix("hasScore", propertyHasScoreUri);
 
-
-	String mainUriInstances = "http://linkedin_project.com/profile.rdfs-instances";
+	String mainUriInstances = "http://linkedin_project.com/profile.rdfs-instances/";
 
 		//URI
-		String professionalUri = mainUriInstances + "#Professional/";
-		String educationUri = mainUriInstances + "#Education/";
-		String postUri = mainUriInstances + "#Post/";
-		String languageUri = mainUriInstances + "#Language/";
-		String skillUri = mainUriInstances + "#Skill/";
-		String projectUri = mainUriInstances + "#Project/";
-		String certificationUri = mainUriInstances + "#Certification/";
-		String groupUri = mainUriInstances + "#Group/";
-		String organizationUri = mainUriInstances + "#Organization/";
-		String companyUri = mainUriInstances + "#Company/";
-		String universityUri = mainUriInstances + "#University/";
-		String countryUri = mainUriInstances + "#Country/";
-		String languageCertificationUri = mainUriInstances + "#languageCertification/";
-		String ITCertificationUri = mainUriInstances + "#ITCertification/";
-		String engineerUri = mainUriInstances + "#Engineer/";
-		String developmentEngineerUri = mainUriInstances + "#softwareEngineer/";
-		String RandDEngineerUri = mainUriInstances + "#RandDEngineer/";
-		String decurityEngineerUri = mainUriInstances + "#securityEngineer/";
-		String teacherUri = mainUriInstances + "#Teacher/";
-		String PhDStudentUri = mainUriInstances + "#PhDStudent/";
-		String traineeUri = mainUriInstances + "#Trainee/";
-		String preparatoryCycleUri = mainUriInstances + "#preparatoryCycle/";
-		String engineeringStudiesUri = mainUriInstances + "#engineeringStudies/";
-		String masterDegreeStudiesUri = mainUriInstances + "#masterDegreeStudies/";
+		String professionalUri = mainUriInstances + "Professional/";
+		String educationUri = mainUriInstances + "Education/";
+		String postUri = mainUriInstances + "Post/";
+		String languageUri = mainUriInstances + "Language/";
+		String skillUri = mainUriInstances + "Skill/";
+		String projectUri = mainUriInstances + "Project/";
+		String certificationUri = mainUriInstances + "Certification/";
+		String groupUri = mainUriInstances + "Group/";
+		String organizationUri = mainUriInstances + "Organization/";
+		String companyUri = mainUriInstances + "Company/";
+		String universityUri = mainUriInstances + "University/";
+		String countryUri = mainUriInstances + "Country/";
+		String languageCertificationUri = mainUriInstances + "languageCertification/";
+		String ITCertificationUri = mainUriInstances + "ITCertification/";
+		String engineerUri = mainUriInstances + "Engineer/";
+		String developmentEngineerUri = mainUriInstances + "softwareEngineer/";
+		String RandDEngineerUri = mainUriInstances + "RandDEngineer/";
+		String decurityEngineerUri = mainUriInstances + "securityEngineer/";
+		String teacherUri = mainUriInstances + "Teacher/";
+		String PhDStudentUri = mainUriInstances + "PhDStudent/";
+		String traineeUri = mainUriInstances + "Trainee/";
+		String preparatoryCycleUri = mainUriInstances + "preparatoryCycle/";
+		String engineeringStudiesUri = mainUriInstances + "engineeringStudies/";
+		String masterDegreeStudiesUri = mainUriInstances + "masterDegreeStudies/";
 
 		
 		
 		Resource professionalProfile = model
-				.createResource(professionalUri + professional.getName());
+				.createResource(professionalUri + "#"+ professional.getName());
 		professionalProfile.addProperty(RDF.type, classProfessional);
 
 		model.add(professionalProfile, name, professional.getName());
@@ -351,7 +239,7 @@ public class RDFManager {
 			model.add(professionalProfile, summary, professional.getSummary());
 
 		Resource countryProfile = model
-				.createResource(countryUri + professional.getCountry());
+				.createResource(countryUri + "#"+ professional.getCountry());
 		//model.add(countryProfile, RDF.type, classCountry);
 		model.add(professionalProfile, country, countryProfile);
 
@@ -359,7 +247,7 @@ public class RDFManager {
 		while (languages.hasNext()) {
 			String language = languages.next();
 			Resource languageProfile = model
-					.createResource(languageUri + language);
+					.createResource(languageUri +"#"+ language);
 			model.add(professionalProfile, speacksLanguage, languageProfile);
 		}
 
@@ -367,7 +255,7 @@ public class RDFManager {
 		while (skillsString.hasNext()) {
 			String skillString = skillsString.next();
 			Resource skillProfile = model
-					.createResource(skillUri + skillString);
+					.createResource(skillUri + "#"+ skillString);
 			model.add(professionalProfile, hasSkill, skillProfile);
 		}
 
@@ -376,7 +264,7 @@ public class RDFManager {
 		while (educations.hasNext()) {
 			Education education = educations.next();
 			Resource educationProfile = model
-					.createResource(educationUri + professional.getName() + "/" + education.getName());
+					.createResource(educationUri + professional.getName() + "/#" + education.getName());
 			model.add(professionalProfile, hasEducation, educationProfile);
 			
 			if (education.getName() != null)
@@ -396,7 +284,7 @@ public class RDFManager {
 			
 			if (education.getName() != null){
 				Resource universityProfile = model
-				.createResource(universityUri + education.getName());
+				.createResource(universityUri + "#"+ education.getName());
 		       model.add(educationProfile, doneInUniversity, universityProfile);
 			}
 			
@@ -450,7 +338,7 @@ public class RDFManager {
 		while (groups.hasNext()) {
 			Group group = groups.next();
 			Resource groupProfile = model
-					.createResource(groupUri + group.getName());
+					.createResource(groupUri +"#"+ group.getName());
 			model.add(professionalProfile, belongToGroup, groupProfile);
 			if (group.getName() != null)
 				model.add(groupProfile, hasName, group.getName());
@@ -463,7 +351,7 @@ public class RDFManager {
 		while (organizations.hasNext()) {
 			Organization org = organizations.next();
 			Resource orgpProfile = model
-					.createResource(organizationUri + org.getName());
+					.createResource(organizationUri +"#"+ org.getName());
 			model.add(professionalProfile, joinOrganization, orgpProfile);
 			if (org.getName() != null)
 				model.add(orgpProfile, hasName, org.getName());
@@ -475,7 +363,7 @@ public class RDFManager {
 		while (projects.hasNext()) {
 			Project project = projects.next();
 			Resource projectProfile = model
-					.createResource(projectUri + professional.getName() + "/" + project.getTitle());
+					.createResource(projectUri + professional.getName() + "/#" + project.getTitle());
 			model.add(professionalProfile, didProject, projectProfile);
 			if (project.getTitle() != null)
 				model.add(projectProfile, hasTitle, project.getTitle());
@@ -491,7 +379,7 @@ public class RDFManager {
 				Iterator<String> associates = project.getAssociates().iterator();
 				while (associates.hasNext()) {
 					String associate = associates.next();
-					Resource associateProfile = model.createResource(professionalUri + associate);
+					Resource associateProfile = model.createResource(professionalUri + "#"+associate);
 					model.add(projectProfile, hasAssociates, associateProfile);
 			}
 
@@ -509,7 +397,7 @@ public class RDFManager {
 		while (current_companies.hasNext()) {
 			JobCompany current_post = current_companies.next();
 			Resource current_postProfile = model.createResource(
-					postUri + professional.getName() + "/" + current_post.getTitle());
+					postUri + professional.getName() + "/#" + current_post.getTitle());
 			model.add(professionalProfile, hasPosition, current_postProfile);
 
 			this.getPostType(current_post, current_postProfile);
@@ -523,7 +411,7 @@ public class RDFManager {
 			if (current_post.getDescription() != null)
 				model.add(current_postProfile, description, current_post.getDescription());
 			if (current_post.getCompany() != null){
-				Resource currentCompany = model.createResource(companyUri + current_post.getCompany());
+				Resource currentCompany = model.createResource(companyUri +"#"+ current_post.getCompany());
 
 				model.add(currentCompany, hasName, current_post.getCompany());
 
@@ -553,7 +441,7 @@ public class RDFManager {
 		while (past_position.hasNext()) {
 			JobCompany past_post = past_position.next();
 			Resource past_postProfile = model.createResource(
-					postUri + professional.getName() + "/" + past_post.getTitle());
+					postUri + professional.getName() + "/#" + past_post.getTitle());
 		
 			model.add(professionalProfile, hadPosition, past_postProfile);
 			
@@ -568,7 +456,7 @@ public class RDFManager {
 			if (past_post.getDescription() != null)
 				model.add(past_postProfile, description, past_post.getDescription());
 			if (past_post.getCompany() != null){
-				Resource currentCompany = model.createResource(companyUri + past_post.getCompany());
+				Resource currentCompany = model.createResource(companyUri +"#"+ past_post.getCompany());
 
 				model.add(currentCompany, hasName, past_post.getCompany());
 
@@ -608,7 +496,7 @@ public class RDFManager {
 			while (friends.hasNext()) {
 				Friend friend = friends.next();
 				Resource friendProfile = model
-						.createResource(professionalUri + friend.getName());
+						.createResource(professionalUri +"#"+ friend.getName());
 				model.add(professionalProfile, hasFriend, friendProfile);
 		}
 	}
@@ -617,11 +505,11 @@ public class RDFManager {
 //		while (certifications.hasNext()) {
 //			Certification certification = certifications.next();
 //			Resource certificationProfile = model.createResource(
-//					certificationUri + "/" + professional.getName() + "/Certification/" + certification.getTitle());
+//					certificationUri + "3" + professional.getName() + "/Certification/" + certification.getTitle());
 //			model.add(professionalProfile, hasCertification, certificationProfile);
 //		}
-//
-//		
+
+		
 //		if (professional.getRecommended_visitors() != null) {
 //		Iterator<RecommandedVisitor> visitors = professional.getRecommended_visitors().iterator();
 //		while (visitors.hasNext()) {
