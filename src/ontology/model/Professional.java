@@ -7,18 +7,16 @@ import java.util.List;
 public class Professional {
 	private String name, first_name, last_name, title, location, number_of_connections, country, industry, summary,
 			picture, linkedin_url, link;
-	private List<String> websites, skills, languages, organizations;
+	private List<String> websites, skills, languages;
 	private List<JobCompany> past_companies, current_companies;
-
-	private List<Professional> friends;
-	private List<Professional> recommended_visitors;
+	private List<Organization> organizations;
+	private List<Friend> friends;
+	private List<RecommandedVisitor> recommended_visitors;
 	private List<Group> groups;
 	private List<Certification> certifications;
 	private List<Education> education;
 	private List<Project> projects;
 
-	private List<Certification> certificationsOfprofessional=new ArrayList<Certification>();
-	private List<Skill> skillsOfprofessional=new ArrayList<Skill>();
 
 	public Professional() {
 		super();
@@ -28,8 +26,8 @@ public class Professional {
 	public Professional(String name, String first_name, String last_name, String title, String location,
 			String number_of_connections, String country, String industry, String summary, String picture,
 			String linkedin_url, String link, List<String> websites, List<String> skills, List<String> languages,
-			List<String> organizations, List<JobCompany> past_companies, List<JobCompany> current_companies,
-			List<Professional> friends, List<Professional> recommended_visitors, List<Group> groups,
+			List<Organization> organizations, List<JobCompany> past_companies, List<JobCompany> current_companies,
+			List<Friend> friends, List<RecommandedVisitor> recommended_visitors, List<Group> groups,
 			List<Certification> certifications, List<Education> education, List<Project> projects) {
 		super();
 		this.name = name;
@@ -43,7 +41,6 @@ public class Professional {
 		this.summary = summary;
 		this.picture = picture;
 		this.linkedin_url = linkedin_url;
-		this.link = link;
 		this.websites = websites;
 		this.skills = skills;
 		this.languages = languages;
@@ -64,7 +61,7 @@ public class Professional {
 				+ title + ", location=" + location + ", number_of_connections=" + number_of_connections + ", country="
 				+ country + ", industry=" + industry + ", summary=" + summary + ", picture=" + picture
 				+ ", linkedin_url=" + linkedin_url + ", link=" + link + ", websites=" + websites + ", skills=" + skills
-				+ ", languages=" + languages + ", organizations=" + organizations + "]";
+				+ ", languages=" + languages +  "]";
 	}
 
 	public List<Group> getGroups() {
@@ -203,11 +200,11 @@ public class Professional {
 		this.certifications = certifications;
 	}
 
-	public List<String> getOrganizations() {
+	public List<Organization> getOrganizations() {
 		return organizations;
 	}
 
-	public void setOrganizations(List<String> organizations) {
+	public void setOrganizations(List<Organization> organizations) {
 		this.organizations = organizations;
 	}
 
@@ -236,19 +233,11 @@ public class Professional {
 	}
 
 	public List<Certification> getCertificationsOfprofessional() {
-		return certificationsOfprofessional;
+		return certifications;
 	}
 
 	public void setCertificationsOfprofessional(List<Certification> certificationsOfprofessional) {
-		this.certificationsOfprofessional = certificationsOfprofessional;
-	}
-
-	public List<Skill> getSkillsOfprofessional() {
-		return skillsOfprofessional;
-	}
-
-	public void setSkillsOfprofessional(List<Skill> skillsOfprofessional) {
-		this.skillsOfprofessional = skillsOfprofessional;
+		this.certifications = certificationsOfprofessional;
 	}
 
 	public List<Project> getProjects() {
@@ -259,65 +248,34 @@ public class Professional {
 		this.projects = projects;
 	}
 
-	public List<Professional> getFriends() {
+	public List<Friend> getFriends() {
 		return friends;
 	}
 
-	public void setFriends(List<Professional> friends) {
+	public void setFriends(List<Friend> friends) {
 		this.friends = friends;
 	}
 
-	public List<Professional> getRecommended_visitors() {
+	public List<RecommandedVisitor> getRecommended_visitors() {
 		return recommended_visitors;
 	}
 
-	public void setRecommended_visitors(List<Professional> recommended_visitors) {
+	public void setRecommended_visitors(List<RecommandedVisitor> recommended_visitors) {
 		this.recommended_visitors = recommended_visitors;
 	}
 
-	public void toListOfCertification(List<Certification> listOfCertifications) throws NullPointerException {
-		Iterator<Certification> iterator = this.getCertifications().iterator();
-		Iterator<Certification> iteratorOfCertifications = listOfCertifications.iterator();
+	public void showAllFriends(List<Friend> friends) {
+		Iterator<Friend> iterator = friends.iterator();
 		while (iterator.hasNext()) {
-			Certification element = iterator.next();
-			while (iteratorOfCertifications.hasNext()) {
-				Certification certification = iteratorOfCertifications.next();
-				System.out.println(certification.getTitle());
-				System.out.println(element.getTitle());
-				if ((certification.getTitle().equals(element.getTitle()))==true) {
-					certification.setScore(element.getScore());
-					System.out.println(certification.toString());
-					certificationsOfprofessional.add(certification);
-				}
-			}
-		}
-	}
-
-	public void fromListOfStringToListOfSkills(List<String> listOfString, List<Skill> listOfSkills) throws NullPointerException {
-		Iterator<String> iteratorOfString = listOfString.iterator();
-		Iterator<Skill> iteratorOfSkills = listOfSkills.iterator();
-		while (iteratorOfString.hasNext()) {
-			String element = iteratorOfString.next();
-			while (iteratorOfSkills.hasNext()) {
-				Skill skill = iteratorOfSkills.next();
-				if (skill.getName().equals(element))
-					this.skillsOfprofessional.add(skill);
-			}
-		}
-	}
-
-	public void showAllFriends(List<Professional> friends) {
-		Iterator<Professional> iterator = friends.iterator();
-		while (iterator.hasNext()) {
-			Professional professional = iterator.next();
+			Friend professional = iterator.next();
 			System.out.println(professional.toString());
 		}
 	}
 
-	public void showAllRecommended_visitor(List<Professional> recommended_visitors) {
-		Iterator<Professional> iterator = recommended_visitors.iterator();
+	public void showAllRecommended_visitor(List<RecommandedVisitor> list) {
+		Iterator<RecommandedVisitor> iterator = list.iterator();
 		while (iterator.hasNext()) {
-			Professional recommended_visitor = iterator.next();
+			RecommandedVisitor recommended_visitor = iterator.next();
 			System.out.println(recommended_visitor.toString());
 		}
 	}
@@ -355,31 +313,17 @@ public class Professional {
 		}
 	}
 
-	public void showAllSkills(List<String> skills) {
-		Iterator<String> iterator = skills.iterator();
-		while (iterator.hasNext()) {
-			String skill = iterator.next();
-			System.out.println(skill.toString());
-		}
-	}
 
-	public void showAllLanguages(List<String> languages) {
-		Iterator<String> iterator = languages.iterator();
+	public void showAllOrganizations(List<Organization> list) {
+		Iterator<Organization> iterator = organizations.iterator();
 		while (iterator.hasNext()) {
-			String language = iterator.next();
-			System.out.println(language.toString());
-		}
-	}
-
-	public void showAllOrganizations(List<String> organizations) {
-		Iterator<String> iterator = languages.iterator();
-		while (iterator.hasNext()) {
-			String organization = iterator.next();
+			Organization organization = iterator.next();
 			System.out.println(organization.toString());
 		}
 	}
 
 	public void showAllJobCompany(List<JobCompany> jobs) {
+		System.out.println("************Past jobs ************");
 		Iterator<JobCompany> iterator = jobs.iterator();
 		while (iterator.hasNext()) {
 			JobCompany job = iterator.next();
@@ -387,17 +331,25 @@ public class Professional {
 		}
 	}
 
+	public void showCurrentJobCompany(List<JobCompany> jobs) {
+		System.out.println("************Current jobs ************");
+		Iterator<JobCompany> iterator = jobs.iterator();
+		while (iterator.hasNext()) {
+			JobCompany job = iterator.next();
+			System.out.println(job.toString());
+		}
+	}
+	
 	public void displayProfessional(Professional professional) {
 		System.out.println(professional.toString());
+		this.showAllFriends(professional.getFriends());
 		this.showAllProjects(professional.getProjects());
 		this.showAllEducations(professional.getEducation());
 		this.showAllGroups(professional.getGroups());
-		this.showAllLanguages(professional.getLanguages());
-		this.showAllSkills(professional.getSkills());
 		this.showAllCertifications(professional.getCertifications());
 		this.showAllOrganizations(professional.getOrganizations());
 		this.showAllJobCompany(professional.getPast_companies());
-		this.showAllJobCompany(professional.getCurrent_companies());
+		this.showCurrentJobCompany(professional.getCurrent_companies());
 		this.showAllRecommended_visitor(professional.getRecommended_visitors());
 	}
 

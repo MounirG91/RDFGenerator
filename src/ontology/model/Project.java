@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class Project {
-	private String title, link, start_date, end_date, description, duration;
+	private String title, link, start_date, end_date, description;
 	private List<String> associates;
 
 	public Project() {
@@ -20,7 +20,6 @@ public class Project {
 		this.start_date = start_date;
 		this.end_date = end_date;
 		this.description = description;
-		this.duration = duration;
 		this.associates = associates;
 	}
 
@@ -72,18 +71,11 @@ public class Project {
 		this.associates = associates;
 	}
 
-	public String getDuration() {
-		return duration;
-	}
-
-	public void setDuration(String duration) {
-		this.duration = duration;
-	}
 
 	@Override
 	public String toString() {
 		return "Project [title=" + title + ", link=" + link + ", start_date=" + start_date + ", end_date=" + end_date
-				+ ", description=" + description + ", duration=" + duration + "]";
+				+ ", description=" + description +  ", associates=" + associates + "]";
 	}
 
 	public void showAllAssociates() throws NullPointerException {

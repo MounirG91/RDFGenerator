@@ -105,10 +105,12 @@
     }
   ],
   "websites": [
-
+   "web1",
+   "web2"
   ],
   "languages": [
-
+   "Arabe", 
+   "French"
   ],
   "skills": [
     "Java",
@@ -146,7 +148,14 @@
   }
   ],
   "organizations": [
-
+	{
+      "name": "test1",
+      "link": "lien1"
+    },
+	 {
+      "name": "test2",
+      "link": "lien2"
+    }
   ],
   "past_companies": [
     {
@@ -207,7 +216,7 @@
       "website": "http://www.tekonsult.de",
       "industry": "Telecommunications",
       "type": "Privately Held",
-      "headquarters": "Wilhelm Busch Str. 12\n\nMünchen,\nBavaria\n81477\nGermany",
+      "headquarters": "Wilhelm Busch Str. 12 nMünchen, Bavaria 81477 Germany",
       "company_size": "51-200 employees",
       "founded": "2000",
       "address": "Wilhelm Busch Str. 12  München, Bavaria 81477 Germany"
@@ -283,5 +292,22 @@
       "title": "Software Engineer chez Lyance",
       "company": null
     }
-  ]
+  ],
+
+"friends": [
+{
+"name": "test1"
+},
+{
+"name": "test2"
+},
+{
+"name": "test3"
+},
+{
+"name": "test4"
+}
+  ]  
+  
+  
 }

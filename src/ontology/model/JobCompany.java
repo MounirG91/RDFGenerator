@@ -2,7 +2,7 @@ package ontology.model;
 
 public class JobCompany {
 	private String title, company, description, duration, start_date, linkedin_company_url, url, website, industry,
-			type, headquarters, company_size, founder, address;
+			type, headquarters, company_size, founded, address;
 	private JobCompany jobCompany;
 
 	public JobCompany() {
@@ -12,7 +12,7 @@ public class JobCompany {
 
 	public JobCompany(String title, String company, String description, String duration, String start_date,
 			String linkedin_company_url, String url, String website, String industry, String type, String headquarters,
-			String company_size, String founder, String address) {
+			String company_size, String founded, String address) {
 		super();
 		this.title = title;
 		this.company = company;
@@ -26,29 +26,10 @@ public class JobCompany {
 		this.type = type;
 		this.headquarters = headquarters;
 		this.company_size = company_size;
-		this.founder = founder;
+		this.founded = founded;
 		this.address = address;
 	}
 
-	public JobCompany(String title, String company, String description, String duration, String start_date,
-			String linkedin_company_url, String url, String website, String industry, String type, String headquarters,
-			String company_size, String founded, String address, JobCompany jobCompany) {
-		super();
-		this.title = title;
-		this.company = company;
-		this.description = description;
-		this.duration = duration;
-		this.start_date = start_date;
-		this.linkedin_company_url = linkedin_company_url;
-		this.url = url;
-		this.website = website;
-		this.industry = industry;
-		this.type = type;
-		this.headquarters = headquarters;
-		this.company_size = company_size;
-		this.address = address;
-		this.jobCompany = jobCompany;
-	}
 
 	public String getTitle() {
 		return title;
@@ -146,12 +127,12 @@ public class JobCompany {
 		this.company_size = company_size;
 	}
 
-	public String getFounder() {
-		return founder;
+	public String getFounded() {
+		return founded;
 	}
 
-	public void setFounder(String founded) {
-		this.founder = founded;
+	public void setFounded(String founded) {
+		this.founded = founded;
 	}
 
 	public String getAddress() {
@@ -175,7 +156,7 @@ public class JobCompany {
 		return "JobCompany [title=" + title + ", company=" + company + ", description=" + description + ", duration="
 				+ duration + ", start_date=" + start_date + ", linkedin_company_url=" + linkedin_company_url + ", url="
 				+ url + ", website=" + website + ", industry=" + industry + ", type=" + type + ", headquarters="
-				+ headquarters + ", company_size=" + company_size + ", founder=" + founder + ", address=" + address
+				+ headquarters + ", company_size=" + company_size + ", founder=" + founded + ", address=" + address
 				+ "]";
 	}
 

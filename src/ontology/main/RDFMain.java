@@ -19,25 +19,7 @@ public class RDFMain {
 		
 		RDFManager rdfManager=new RDFManager();
 		rdfManager.professionalToRDF(professional1); 
-		
-		
-		System.out.println("/n*****************************************");
-		System.out.println("/n*****************************************");
-		System.out.println("/n*****************************************");
-		System.out.println("/n*****************************************");
-		System.out.println("/n*****************************************");
-		System.out.println("/n*****************************************");
-		System.out.println("/n*****************************************");
-		System.out.println("/n*****************************************");
-		System.out.println("/n*****************************************");
-		
-		
-		
-		Professional professional2 = new Professional();
-		professional2 = parser.jsonToProfessional(fileSource+"\\AhmedRebaiProfile.json");
-		
-		rdfManager.professionalToRDF(professional2); 
-		
+				
 	}
 
 }

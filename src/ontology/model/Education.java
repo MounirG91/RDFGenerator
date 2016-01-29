@@ -6,8 +6,6 @@ import java.util.List;
 public class Education {
 	private String name, description, degree, major, period, start_date, end_date;
 
-	private University university;
-
 	public Education() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -79,26 +77,6 @@ public class Education {
 
 	public void setEnd_date(String end_date) {
 		this.end_date = end_date;
-	}
-
-	public University getUniversity() {
-		return university;
-	}
-
-	public void setUniversity(University university) {
-		this.university = university;
-	}
-
-	public void fromNameToUniversity(List<University> universities) {
-		Iterator<University> iteratorOfUniversities = universities.iterator();
-		boolean found = false;
-		University university = null;
-		while ((iteratorOfUniversities.hasNext()) && (found == false)) {
-			university = iteratorOfUniversities.next();
-			if (university.getName().equals(this.name))
-				found = true;
-		}
-		this.setUniversity(university);
 	}
 
 	@Override
