@@ -1,0 +1,358 @@
+{
+  "name": "Mounir Guizani",
+  "first_name": "Mounir",
+  "last_name": "Guizani",
+  "title": "Master final-year student - Java/Jee Engineer",
+  "location": "تونس",
+  "number_of_connections": "132",
+  "country": "تونس",
+  "industry": "الأبحاث",
+  "summary": null,
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAVHAAAAJDVhY2IyNTMxLTUyYTQtNDFiNy1iYjhkLWU2MjYyYjBkMWUwMQ.jpg",
+  "projects": [
+    {
+      "title": "Management interface based on Java",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "- Designing and developing a desktop management application. - Keywords : Java (GUI SWING), Orcale, Design Patterns.",
+      "associates": [
+        "Mounir Guizani"
+      ]
+    },
+    {
+      "title": "Management application based on Java Entreprise Edition",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "- Implementing a bank account management system.- Keywords : JEE (JPA, Hibernate, Junit, EJB 3.0, JSF, PrimeFaces), MySQL, UML.",
+      "associates": [
+        "Mounir Guizani"
+      ]
+    },
+    {
+      "title": "Tweetalytics",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "- A native cloud application that run periodically analyzes from the public flow twitter. - The application is developed for hosting on the Amazon cloud (via Amazon Elastic Beanstalk).Work environment : MAVEN Java, REST, JSON, DynamoDB, Amazon AWS.",
+      "associates": [
+        "Mounir Guizani"
+      ]
+    },
+    {
+      "title": "Efficient computing of k nearest neighbors over CAN structured",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "The k nearest neighbors (kNN) is an operation that, for a given point in a data space, finds its k closest points in a set of points S. The k nearest neighbors join is a costly operation in the sense that, for every point in a set R, all the points in S have to be checked against a distance metric to find close points. To be efficient and scale to large sets R and S, one have to compute this operation in a distributed environment, such as a cluster or a cloud. In order to organize data in distributed environments, structured overlays featuring distributed hastables (such as Chord, Pastry, Kademlia, Cassandra and Content Addressable Network), propose a hash-based dissemination of data held by peers, which guarantees a faster retrievability.The objective of this project is to come with an efficient implementation of kNN over Content Addressable Network (CAN). More precisely, thisproject has three steps: - The first step is to implement a basic, not optimal, kNN over CAN.- The second step is to design an optimized kNN algorithm to make the best use of the CAN structure. - The last step would be eventually to perform a benchmark of the solution in a distributed setting (on a given computing grid).Keywords : Java, ability to integrate new algorithms and new programming paradigms.",
+      "associates": [
+        "Mounir Guizani"
+      ]
+    },
+    {
+      "title": "An HTML5 multi track player",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "- A web application which is based on : - NodeJS, ExpressJS, Mocha JS, MongoDB (Back-end).- Angular JS (Controller).- Object Oriented JS, HTML5, Web API Audio, CSS3 (Front-end).",
+      "associates": [
+        "Mounir Guizani"
+      ]
+    }
+  ],
+  "linkedin_url": "https://tn.linkedin.com/in/mounirguizani",
+  "education": [
+    {
+      "name": "Polytech Nice-Sophia",
+      "description": "Undifferentiated Master, Computer, Fundamentals and Engineering",
+      "degree": null,
+      "major": null,
+      "period": "2015 – 2016",
+      "start_date": "2015",
+      "end_date": "2016"
+    },
+    {
+      "name": "National Engineering School of Sfax",
+      "description": "Engineering, Computer Engineering",
+      "degree": null,
+      "major": null,
+      "period": "2012 – 2015",
+      "start_date": "2012",
+      "end_date": "2015"
+    },
+    {
+      "name": "Preparatory Institute of Engineering Studies of Tunis",
+      "description": ", Mathematics Physics Specialization (MP)",
+      "degree": null,
+      "major": null,
+      "period": "2010 – 2012",
+      "start_date": "2010",
+      "end_date": "2012"
+    },
+    {
+      "name": "El Canal high school, Bizerta, Tunisia",
+      "description": "Baccalaureate, Computer Sciences, Honors",
+      "degree": null,
+      "major": null,
+      "period": "2006 – 2010",
+      "start_date": "2006",
+      "end_date": "2010"
+    }
+  ],
+  "groups": [
+    {
+      "name": "HTML 5 and CSS 3",
+      "link": "https://tn.linkedin.com/groups?gid=3768826&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Bilingual Professionals (French and English)",
+      "link": "https://tn.linkedin.com/groups?gid=1798622&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "IEEE CIS GOLD -- Computational Intelligence Society Graduates of the Last Decade",
+      "link": "https://tn.linkedin.com/groups?gid=3142116&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Linkin Tunisia",
+      "link": "https://tn.linkedin.com/groups?gid=118991&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Hibernate Jobs",
+      "link": "https://tn.linkedin.com/groups?gid=1895314&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "IEEE Computational Intelligence Society (IEEE CIS)",
+      "link": "https://tn.linkedin.com/groups?gid=75152&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "BFI GROUP",
+      "link": "https://tn.linkedin.com/groups?gid=2281599&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "OXIA job opportunities",
+      "link": "https://tn.linkedin.com/groups?gid=8120794&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Réseau Entreprendre Tunis",
+      "link": "https://tn.linkedin.com/groups?gid=2629641&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Angularjs",
+      "link": "https://tn.linkedin.com/groups?gid=5010991&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Cynapsys",
+      "link": "https://tn.linkedin.com/groups?gid=3520337&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Software Performance Management Specialists",
+      "link": "https://tn.linkedin.com/groups?gid=1947706&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "PHP Tunisie",
+      "link": "https://tn.linkedin.com/groups?gid=3247005&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "AngularJS Developers",
+      "link": "https://tn.linkedin.com/groups?gid=4896676&trk=prof-groups-membership-name"
+    }
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+   "French", 
+   "Arabic",
+   "English", 
+   "Spanish"
+  ],
+  "skills": [
+    "Java Enterprise Edition",
+    "XML",
+    "JavaScript",
+    "MySQL",
+    "Java",
+    "Python",
+    "HTML5",
+    "C",
+    "SQL",
+    "Hibernate",
+    "Oracle",
+    "Matlab",
+    "Algorithms",
+    "Programming",
+    "Computer Science",
+    "عرض 18+",
+    "Data Analysis",
+    "J2EE Application Development",
+    "Bootstrap",
+    "WAMP",
+    "XAMPP",
+    "Spring",
+    "Spring Security",
+    "EJB",
+    "JavaSc",
+    "Informatique",
+    "C++",
+    "HTML 5",
+    "SOA",
+    "SOAP",
+    "SoapUI",
+    "REST",
+    "Amazon Web Services",
+    "Algorithmes",
+    "عرض أقل"
+  ],
+  "certifications": [
+
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "End of study Internship",
+      "company": "Orange Tunisie",
+      "description": "- Designing and developing a customer care solution and for monitoring of IN/MBC service platforms.- Kyewords : Bootstrap, HTML5 ,JS ,JQuery, Ajax, Spring MVC, Hibernate, JPA, Junit, Spring Security, MySQL, Oracle, Tomcat, XML, Script Shell Linux, Solaris OS, Linux OS, Communication protocols (CCAPI,UCIP,VCIP) .",
+      "duration": "4 شهور",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/orange-tunisie?trk=ppro_cprof",
+      "url": "http://www.orange.tn/",
+      "website": "http://www.orange.tn/",
+      "industry": "Telecommunications",
+      "type": "Privately Held",
+      "headquarters": "Immeuble Orange, Centre Urbain Nord, 1003 Tunis\n\nTunis,\n\n1002\nTunisia",
+      "company_size": "1001-5000 employees",
+      "address": "Immeuble Orange, Centre Urbain Nord, 1003 Tunis  Tunis,  1002 Tunisia"
+    },
+    {
+      "title": "Internship",
+      "company": "Telnet",
+      "description": "- OpenERP customization according to the company's processes by using Python and XML technologies.- Acquiring financial knowledge.",
+      "duration": "2 من الشهور",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/telnet_2?trk=ppro_cprof",
+      "url": "http://www.groupe-telnet.com",
+      "website": "http://www.groupe-telnet.com",
+      "industry": "Outsourcing/Offshoring",
+      "type": "Privately Held",
+      "headquarters": "Immeuble Ennour - Centre Urbain Nord, BP 140 - Cedex\n\nTunis,\n\n1082\nTunisia",
+      "company_size": "201-500 employees",
+      "founded": "1994",
+      "address": "Immeuble Ennour - Centre Urbain Nord, BP 140 - Cedex  Tunis,  1082 Tunisia"
+    },
+    {
+      "title": "End of year Internship",
+      "company": "adhoc International",
+      "description": "- Implementing a web interface for stock managing.- Keywords: JEE (JPA, Hibernate, Junit, Servlets, JSP), Oracle, UML.",
+      "duration": "4 شهور",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/adhoc-international?trk=ppro_cprof",
+      "url": "http://www.sword-performance.com/",
+      "website": "http://www.sword-performance.com/",
+      "industry": "Information Technology and Services",
+      "type": "Public Company",
+      "headquarters": "Schützengraben 7\n\nBasel,\n\n4051\nSwitzerland",
+      "company_size": "51-200 employees",
+      "founded": "2002",
+      "address": "Schützengraben 7  Basel,  4051 Switzerland"
+    },
+    {
+      "title": "Internship2",
+      "company": "adhoc International",
+      "description": "- Developing a website using HTML5, CSS3, JS.",
+      "duration": "2 من الشهور",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/adhoc-international?trk=ppro_cprof",
+      "url": "http://www.sword-performance.com/",
+      "website": "http://www.sword-performance.com/",
+      "industry": "Information Technology and Services",
+      "type": "Public Company",
+      "headquarters": "Schützengraben 7\n\nBasel,\n\n4051\nSwitzerland",
+      "company_size": "51-200 employees",
+      "founded": "2002",
+      "address": "Schützengraben 7  Basel,  4051 Switzerland"
+    }
+  ],
+  "current_companies": [
+
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://tn.linkedin.com/in/helatajouri?trk=pub-pbmap",
+      "name": "Hela Tajouri",
+      "title": "Master Thesis Student",
+      "company": "Intel Corporation"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/mal%C3%A8k-rhouma-51aa38ab?trk=pub-pbmap",
+      "name": "Malèk RHOUMA",
+      "title": "--",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/salma-benazzouz-a9859762?trk=pub-pbmap",
+      "name": "Salma BENAZZOUZ",
+      "title": "Ingénieur Systèmes & Réseaux Manager agile",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/mahmoud-mahdi-14575295?trk=pub-pbmap",
+      "name": "mahmoud mahdi",
+      "title": "JavaEE and Fullstack developer--",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/imane-farhane-2504495a?trk=pub-pbmap",
+      "name": "Imane Farhane",
+      "title": "Product Manager chez Lucie Labs",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/olfa-jallouli-8087a0bb?trk=pub-pbmap",
+      "name": "Olfa Jallouli",
+      "title": "Engineering student",
+      "company": "ENIS"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/taher-labidi-6a842225?trk=pub-pbmap",
+      "name": "Taher Labidi",
+      "title": "PhD Student",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/mohamed-emine-laarouchi-88722310a?trk=pub-pbmap",
+      "name": "Mohamed Emine Laarouchi",
+      "title": "Étudiant(e) (Ecole polytechnique)",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/bloudeau-cyril-a9945231?trk=pub-pbmap",
+      "name": "Bloudeau Cyril",
+      "title": "Ingénieur Géomaticien chez MobiGIS",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/hajali?trk=pub-pbmap",
+      "name": "Mohamed Amine HAJ ALI",
+      "title": "Ingénieur chez Orange Developer Center",
+      "company": null
+    }
+  ],
+  
+  "friends": [
+{
+"name": "Jomaa Farouk"
+},
+{
+"name": "Khaled Ben Driss"
+},
+{
+"name": "Amen Ouali"
+},
+{
+"name": "Hela Tajouri"
+}
+  ] 
+}

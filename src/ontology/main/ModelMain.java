@@ -16,7 +16,7 @@ public class ModelMain {
 		
 		Parser parser = new Parser();
 		Professional professional = new Professional();
-		professional = parser.jsonToProfessional(fileSource+"\\YassineBenNaceurProfile.json");
+		professional = parser.jsonToProfessional(fileSource+"\\profil (6).txt");
 		professional.displayProfessional(professional);
 
 

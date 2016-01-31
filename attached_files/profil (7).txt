@@ -1,0 +1,279 @@
+{
+  "name": "Khaled Ben Driss",
+  "first_name": "Khaled",
+  "last_name": "Ben Driss",
+  "title": "Directeur associé - BU Software Engineering chez OXIA",
+  "location": "Tunisie",
+  "number_of_connections": "500",
+  "country": "Tunisie",
+  "industry": "Technologies et services de l’information",
+  "summary": "Depuis juin 2010 : Directeur Business Unit ingénierie Logicielle Responsable de la définition de la stratégie de la BU Responsable du Budget et de la production de l’activité ingénierie Logicielle Responsable du recrutement et de l’animation de l’équipe Responsable P&L de la BU ---> Mise en place de centre de service offshore (ITO : R&D, TMA, TRA)----------De mai/2007 à mai 2010 : Directeur Technique à OXIA Missions -En relation directe avec la Direction Générale, supervise l'ensemble de l'activité technique de l'entreprise et dirige pôle technologie consulting. -définit les projets de recherche et développement et joue un rôle de proposition et de conseil vis-à-vis des clients-Contribue à la définition des domaines d'intervention, participe et veille à la réalisation des objectifs définis-Gère les ressources et les moyens techniques en relation avec l’activité ingénierie logicielle. -Suit certaines missions de grande envergure ou soumises à des exigences technique particulièrement fortes- Rôle d’avant vente : Analyse les besoins fonctionnels des clients et de conçoit des offres de service pour y répondre au mieux-Responsable de la qualité technique de tous les projets, Autres : - Management de projets- Mise en place de centre de service nearshore-Maitrise des règles et techniques de construction de Systèmes d’Information et des -Architecture orienté Service (SOA) & projets SaaS-Aptitude à la mise en place d’architectures techniques et logicielles.-Aptitude à la conception et au développement de solutions logicielles.-Aptitude à l’assistance et au conseil technologique sur J2EE, .Net (Portail, ebusiness).-Aptitude à l’audit et à l’accompagnement méthodologique pour la mise en place de règles et de normes de conception et de développement.-Aptitude à la formation, au pilotage et au transfert de compétences pour les équipes de développement.",
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/057/11d/3b3753e.jpg",
+  "projects": [
+    {
+      "title": "1er Barcamp OpenGovTn, Tunis",
+      "link": "http://atelier.rfi.fr/profiles/blogs/opengovtn",
+      "start_date": null,
+      "end_date": null,
+      "description": "Animation du Barcamp #openGovTN sur les thèmes de l'open data et l'open government, #7ell, les 13 et 14 janvier 2012.Le but étant de favoriser l’inscription dans la constitution de la transparence totale comme règle de gouvernance ainsi que les lois relatives tel que le droit de l’accès à l'information.Réforme de l’administration tunisienne par l’adoption de l’OpenData et l’OpenGov.Actuellement, notre première priorité après les élections est de réunir les bonnes volontés et les compétences tunisiennes qui sont disposées à prêter main forte.",
+      "associates": null
+    }
+  ],
+  "linkedin_url": "https://tn.linkedin.com/in/clusterm2m/fr",
+  "education": [
+    {
+      "name": "Université Pierre et Marie Curie (Paris VI)",
+      "description": "Doctorat, Electronique",
+      "degree": null,
+      "major": null,
+      "period": "1991 – 1994",
+      "start_date": "1991",
+      "end_date": "1994"
+    },
+    {
+      "name": "Ecole centrale de Lyon",
+      "description": "",
+      "degree": null,
+      "major": null,
+      "period": "1988 – 1991",
+      "start_date": "1988",
+      "end_date": "1991"
+    },
+    {
+      "name": "Lycée Masséna NICE",
+      "description": "M', Classe prépa, M'",
+      "degree": null,
+      "major": null,
+      "period": "1986 – 1988",
+      "start_date": "1986",
+      "end_date": "1988"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Oman IT Network",
+      "link": "https://tn.linkedin.com/groups?gid=3924409&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "M2M and IoT (Internet of Things) Communication",
+      "link": "https://tn.linkedin.com/groups?gid=108418&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "SMART ENERGIES EXPO AND SUMMIT",
+      "link": "https://tn.linkedin.com/groups?gid=4143479&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Entrepreneurs & Investors Network - شبكة العصاميون والمستثمرون",
+      "link": "https://tn.linkedin.com/groups?gid=92681&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Best Of Resources Community",
+      "link": "https://tn.linkedin.com/groups?gid=4092017&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Digital Development Community",
+      "link": "https://tn.linkedin.com/groups?gid=137043&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Microsoft Worldwide Partner Conference",
+      "link": "https://tn.linkedin.com/groups?gid=2639423&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Maghreb Business Club - Maroc | Algérie | Tunisie",
+      "link": "https://tn.linkedin.com/groups?gid=662487&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Club Jeunes Hommes d'Affaires Tunisie CJAT",
+      "link": "https://tn.linkedin.com/groups?gid=4632347&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Gouvernement ouvert",
+      "link": "https://tn.linkedin.com/groups?gid=4099552&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Tunisian Scientists Abroad (TSA)",
+      "link": "https://tn.linkedin.com/groups?gid=4282273&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "OXIA job opportunities",
+      "link": "https://tn.linkedin.com/groups?gid=8120794&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Africa Telecom Network - Mobile Phone Industry | Telecommunications",
+      "link": "https://tn.linkedin.com/groups?gid=2059326&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "BIG DATA PARIS",
+      "link": "https://tn.linkedin.com/groups?gid=4158686&trk=prof-groups-membership-name"
+    }
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+
+  ],
+  "skills": [
+    "SOA",
+    ".NET",
+    "Java Enterprise Edition",
+    "Spring",
+    "JBoss Application Server",
+    "Management",
+    "Strategy",
+    "UML",
+    "Java",
+    "Application Frameworks",
+    "Architecture",
+    "Agile Methodologies",
+    "Team Management",
+    "ESB",
+    "Weblogic",
+    "Voir + de 23",
+    "Business Process Design",
+    "Web Services",
+    "IT Strategy",
+    "Tomcat",
+    "Websphere",
+    "Integration",
+    "SharePoint",
+    "Solution Architecture",
+    "Scrum",
+    "Architectures",
+    "SaaS",
+    "Software Engineering",
+    "Start-up Consulting",
+    "Software Development",
+    "Spring Framework",
+    "Méthodes agiles",
+    "Intégration",
+    "Architecture de solution",
+    "Framework Sping",
+    "Services web",
+    "Génie logiciel",
+    "Développement de logiciel",
+    "Gestion d'équipe",
+    "Voir moins"
+  ],
+  "certifications": [
+
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "Directeur BU Software Engineering",
+      "company": "OXIA",
+      "description": "Directeur associé en charge de l'activité Software Engineering",
+      "duration": "5 ans 4 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/oxia?trk=ppro_cprof",
+      "url": "http://www.oxia-group.com",
+      "website": "http://www.oxia-group.com",
+      "industry": "Information Technology and Services",
+      "type": "Partnership",
+      "headquarters": "Technopark El Ghazela - 2088 Tunis- Tunisia\n\nTunis,\n\n\nTunisia",
+      "company_size": "201-500 employees",
+      "founded": "1998",
+      "address": "Technopark El Ghazela - 2088 Tunis- Tunisia  Tunis,   Tunisia"
+    },
+    {
+      "title": "Chief Technology Officer",
+      "company": "OXIA",
+      "description": "Chief Technology Officer",
+      "duration": "7 ans 1 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/oxia?trk=ppro_cprof",
+      "url": "http://www.oxia-group.com",
+      "website": "http://www.oxia-group.com",
+      "industry": "Information Technology and Services",
+      "type": "Partnership",
+      "headquarters": "Technopark El Ghazela - 2088 Tunis- Tunisia\n\nTunis,\n\n\nTunisia",
+      "company_size": "201-500 employees",
+      "founded": "1998",
+      "address": "Technopark El Ghazela - 2088 Tunis- Tunisia  Tunis,   Tunisia"
+    },
+    {
+      "title": "Excecutive Partner",
+      "company": "OXIA",
+      "description": "Accompagner les entreprises dans la mise en œuvre des technologies. Mon intervention est axée sur l'assistance, l'accompagnement de projets, le transfert de compétences, et la conception de systèmes d’information avec l’exigence et l’esprit de l’architecte. Je maîtrise parfaitement les règles et les techniques de construction des SI. J'interviens avec l’approche rigoureuse du conseil : écoute, analyse, définition d’une démarche et validation d’objectifs. Missions :- audit, analyse de l’existant, expertise et conseil en architecture de systèmes d'informations - assistance à maitrise d’ouvrage- élaboration d'architecture technique ou logicielle (SOA, SaaS, Paas, Azure, Google appengine, java, Serveurs d'application J2EE & .Net, -UML, UP, Agile)- assistance technique sur des projets à forte valeur technologique - accompagnement au changement pour les évolutions de votre système d'information- co-aching et transfert de compétences et accompagnements pour monter rapidement en compétences sur les NTIC",
+      "duration": "9 ans 1 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/oxia?trk=ppro_cprof",
+      "url": "http://www.oxia-group.com",
+      "website": "http://www.oxia-group.com",
+      "industry": "Information Technology and Services",
+      "type": "Partnership",
+      "headquarters": "Technopark El Ghazela - 2088 Tunis- Tunisia\n\nTunis,\n\n\nTunisia",
+      "company_size": "201-500 employees",
+      "founded": "1998",
+      "address": "Technopark El Ghazela - 2088 Tunis- Tunisia  Tunis,   Tunisia"
+    }
+  ],
+  "current_companies": [
+
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://tn.linkedin.com/in/aminealoulou?trk=pub-pbmap",
+      "name": "Amine Aloulou",
+      "title": "Business Development Director",
+      "company": "OXIA & EBSYS"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/samir-zghal-bb8990?trk=pub-pbmap",
+      "name": "Samir Zghal"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/fatenk?trk=pub-pbmap",
+      "name": "Faten Kemicha Elchaarani",
+      "title": "Senior Recruitment & Headhunting",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/chehin-gharsallah-a0522b13?trk=pub-pbmap",
+      "name": "Chehin GHARSALLAH",
+      "title": "HR Manager chez OXIA",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/zeddini?trk=pub-pbmap",
+      "name": "Walid ZEDDINI",
+      "title": "Chef de projet Principal / Sous-Directeur / Enseignant Expert (ISI -Tunis) / Doctorant (Labo SOIE:Tunis - LMAH:Le Havre)",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/khalil-charfi-a20918?trk=pub-pbmap",
+      "name": "Khalil Charfi"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/imedayadi?trk=pub-pbmap",
+      "name": "Imed Ayadi"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/oxia-careers-06b20417?trk=pub-pbmap",
+      "name": "Oxia Careers",
+      "title": "Consulting - Integration - Outsourcing",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/emna-bellouma-sahbi-02921830?trk=pub-pbmap",
+      "name": "Emna Bellouma Sahbi",
+      "title": "Recruitment Specialist",
+      "company": null
+    }
+  ],
+  
+  "friends": [
+{
+"name": "Mounir Guizani"
+},
+{
+"name": "Amen Ouali"
+},
+{
+"name": "Hela Tajouri"
+}
+  ] 
+}

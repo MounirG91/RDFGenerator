@@ -42,7 +42,7 @@
       "end_date": "2013"
     },
     {
-      "name": "IPEIEM",
+      "name": "Institut Préparatoire aux Etudes d'Ingénieurs el Manar",
       "description": "",
       "degree": null,
       "major": null,
@@ -73,7 +73,8 @@
 
   ],
   "languages": [
-
+   "French", 
+   "English"
   ],
   "skills": [
     "Engineering",
@@ -148,7 +149,7 @@
       "start_date": null
     },
     {
-      "title": "Stagiaire",
+      "title": "Stagiaire2",
       "company": "AMS Tunisie",
       "duration": "1 mois",
       "start_date": null
@@ -216,5 +217,11 @@
       "title": "Ingénieur R&D électronique chez ROBOPLANET",
       "company": null
     }
-  ]
+  ],
+  
+  "friends": [
+{
+"name": "Jomaa Farouk"
+}
+  ] 
 }

@@ -15,7 +15,7 @@ public class RDFMain {
 		
 		Parser parser = new Parser();
 		Professional professional1 = new Professional();
-		professional1 = parser.jsonToProfessional(fileSource+"\\YassineBenNaceurProfile.json");
+		professional1 = parser.jsonToProfessional(fileSource+"\\profil (6).txt");
 		
 		RDFManager rdfManager=new RDFManager();
 		rdfManager.professionalToRDF(professional1); 

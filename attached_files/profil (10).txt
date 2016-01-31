@@ -1,0 +1,238 @@
+{
+  "name": "Ramzi Zayene",
+  "first_name": "Ramzi",
+  "last_name": "Zayene",
+  "title": "Ingénieur en technologies de l'information chez CGI France",
+  "location": "Lyon Area",
+  "number_of_connections": "403",
+  "country": "France",
+  "industry": "Sports",
+  "summary": "*MSP, MCTS .NET Framework 4, Windows Application Development.Spécialisations : C#, C, C++, SharePoint, JavaScript, WPF, WP7, MVVM, ASP.NET, ASP MVC, WPF, LINQ, PHP, xHTML, CSS3, MYSQL, PLSQL, T-SQL, Ajax, jQuery",
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/125/2a5/0625e56.jpg",
+  "projects": [
+
+  ],
+  "linkedin_url": "https://fr.linkedin.com/in/zayeneramzi/en",
+  "education": [
+    {
+      "name": "Ecole Nationale Supérieure d'Informatique et de Mathématiques Appliquées de Grenoble",
+      "description": "",
+      "degree": null,
+      "major": null,
+      "period": "2012 – 2013",
+      "start_date": "2012",
+      "end_date": "2013"
+    },
+    {
+      "name": "École Nationale des Sciences de l'Informatique",
+      "description": "",
+      "degree": null,
+      "major": null,
+      "period": "2010 – 2013",
+      "start_date": "2010",
+      "end_date": "2013"
+    }
+  ],
+  "groups": [
+    {
+      "name": "UGSF, LE User Group SharePoint en France",
+      "link": "https://fr.linkedin.com/groups?gid=37584&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "C# Developers / Architects",
+      "link": "https://fr.linkedin.com/groups?gid=85746&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Microsoft .Net Developers",
+      "link": "https://fr.linkedin.com/groups?gid=40571&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "DogFinance, Recrutement en Gestion et Finance",
+      "link": "https://fr.linkedin.com/groups?gid=2558492&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "ENSI Microsoft Club",
+      "link": "https://fr.linkedin.com/groups?gid=3957361&trk=prof-groups-membership-name"
+    },
+    {
+      "name": ".NET People",
+      "link": "https://fr.linkedin.com/groups?gid=40717&trk=prof-groups-membership-name"
+    }
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+   "French", 
+   "Arabic",
+   "English", 
+   "German"
+  ],
+  "skills": [
+    "C#",
+    ".NET",
+    "ASP.NET MVC",
+    "ASP.NET",
+    "T-SQL",
+    "MySQL",
+    "C++",
+    "WPF",
+    "JavaScript",
+    "Services WCF",
+    "MVVM",
+    "LINQ",
+    "PHP",
+    "CSS",
+    "SharePoint",
+    "PL/SQL",
+    "Windows Phone",
+    "jQuery",
+    "AJAX"
+  ],
+  "certifications": [
+
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "stagiaire",
+      "company": "CGI en France",
+      "description": "Conception et implémentation d'une nouvelle architecture pour une application web",
+      "duration": "6 months",
+      "start_date": "2013-07-06",
+      "linkedin_company_url": "https://www.linkedin.com/company/cgi-en-france?trk=ppro_cprof",
+      "url": "http://www.cgi.fr",
+      "website": "http://www.cgi.fr",
+      "industry": "Information Technology and Services",
+      "type": "Public Company",
+      "headquarters": "17, place des Reflets\n\nParis La Défense,\n\n92097\nFrance",
+      "company_size": "10,001+ employees",
+      "founded": "1976",
+      "address": "17, place des Reflets  Paris La Défense,  92097 France"
+    },
+    {
+      "title": "Président",
+      "company": "ENSI Microsoft Club",
+      "description": "ENSI Microsoft Club est un club qui permet aux étudiants de savoir tous sur les technologies Microsoft. On organise des séminaires de formations, des compétitions et des formations pour aider les membres à savoir et maitriser les technologies Microsoft pour pouvoir enfin passer des certifications dans ces technologies.",
+      "duration": "1 year 1 month",
+      "start_date": "2013-02-01"
+    },
+    {
+      "title": "Stagiaire",
+      "company": "Proxym-IT",
+      "description": "Conception et implémentation d'un workflow de création de sites d'équipes sous SharePoint 2010",
+      "duration": "3 months",
+      "start_date": "2012-08-03",
+      "linkedin_company_url": "https://www.linkedin.com/company/proxym-it?trk=ppro_cprof",
+      "url": "http://www.proxym-group.com/",
+      "website": "http://www.proxym-group.com/",
+      "industry": "Information Technology and Services",
+      "type": "Privately Held",
+      "headquarters": "Technopole de Sousse BP 184 Sousse\n\nSousse,\nSousse\n4051\nTunisia",
+      "company_size": "51-200 employees",
+      "founded": "2006",
+      "address": "Technopole de Sousse BP 184 Sousse  Sousse, Sousse 4051 Tunisia"
+    },
+    {
+      "title": "Stagiaire2",
+      "company": "Acceleate",
+      "description": "Développement Web avec Php et MYSQL",
+      "duration": "3 months",
+      "start_date": "2011-09-03"
+    }
+  ],
+  "current_companies": [
+    {
+      "title": "Ingénieur en technologies de l'information",
+      "company": "CGI en France",
+      "duration": "2 years 5 months",
+      "start_date": "2013-09-01",
+      "end_date": "Present",
+      "linkedin_company_url": "https://www.linkedin.com/company/cgi-en-france?trk=ppro_cprof",
+      "url": "http://www.cgi.fr",
+      "website": "http://www.cgi.fr",
+      "industry": "Information Technology and Services",
+      "type": "Public Company",
+      "headquarters": "17, place des Reflets\n\nParis La Défense,\n\n92097\nFrance",
+      "company_size": "10,001+ employees",
+      "founded": "1976",
+      "address": "17, place des Reflets  Paris La Défense,  92097 France"
+    }
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://fr.linkedin.com/in/anouar-ghoulem-7079b2101?trk=pub-pbmap",
+      "name": "Anouar Ghoulem",
+      "title": "A étudié à : isams",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/yvan-barbaria-29a9782a?trk=pub-pbmap",
+      "name": "Yvan Barbaria",
+      "title": "Ingénieur d'étude et développement chez Diadeis",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/mohamed-amine-ghorbali-8a535a33?trk=pub-pbmap",
+      "name": "Mohamed Amine GHORBALI",
+      "title": "R&D chez LIG laboratory (Java/Android/Web Developer)",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/mohamed-yassine-chaieb-18008734?trk=pub-pbmap",
+      "name": "Mohamed Yassine Chaieb",
+      "title": "Software Engineer chez Alliance Réseaux",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/farah-yaacoub-501ab778?trk=pub-pbmap",
+      "name": "Farah Yaacoub",
+      "title": "Writer/Translator",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/wael-ben-amar-6a692b63?trk=pub-pbmap",
+      "name": "Wael Ben Amar",
+      "title": "Consultant MS BI chez Spark IT France",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/noursmaoui?trk=pub-pbmap",
+      "name": "Nour Smaoui",
+      "title": "PHD Student chez University of Houston",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/virginie-oliver-79098140?trk=pub-pbmap",
+      "name": "Virginie Oliver",
+      "title": "Ingénieur Développement Sénior chez Misys",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/mohamed-ben-smida-2a363441?trk=pub-pbmap",
+      "name": "mohamed ben smida",
+      "title": "Développeur .NET chez SOLILOG",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/sayadi-hanene-54266931?trk=pub-pbmap",
+      "name": "Sayadi Hanene",
+      "title": "Software Engineer chez InSystems Automation GmbH",
+      "company": null
+    }
+  ],
+  
+  "friends": [
+{
+"name": "Jomaa Farouk"
+},
+{
+"name": "Syrine Tlili, PhD"
+},
+{
+"name": "Yassin Ben Naceur"
+}
+  ]  
+}

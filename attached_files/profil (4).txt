@@ -1,0 +1,245 @@
+{
+  "name": "Syrine Tlili, PhD",
+  "first_name": "Syrine",
+  "last_name": "Tlili, PhD",
+  "title": "Directeur Général de l'Agence Nationale de la Certification Electronique",
+  "location": "Tunisie",
+  "number_of_connections": "500",
+  "country": "Tunisie",
+  "industry": "Technologies et services de l’information",
+  "summary": null,
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/0c3/3c7/0ea017e.jpg",
+  "projects": [
+
+  ],
+  "linkedin_url": "https://tn.linkedin.com/in/syrine-tlili-phd-7957b39/fr",
+  "education": [
+    {
+      "name": "Concordia University, Montreal, Quebec",
+      "description": "PhD, Thesis Title « Automatic Detection of Safety and Security Vulnerabilities in Open Source Software »",
+      "degree": null,
+      "major": null,
+      "period": "2004 – 2009",
+      "start_date": "2004",
+      "end_date": "2009"
+    },
+    {
+      "name": "ENSI",
+      "description": "Engineer Diploma, computer systems and networks",
+      "degree": null,
+      "major": null,
+      "period": "1996 – 1999",
+      "start_date": "1996",
+      "end_date": "1999"
+    }
+  ],
+  "groups": [
+    {
+      "name": "OXIA job opportunities",
+      "link": "https://tn.linkedin.com/groups?gid=8120794&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Invest in Tunisia (IT) [Offshore, NearShore, OnShore]",
+      "link": "https://tn.linkedin.com/groups?gid=1882365&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Open Source",
+      "link": "https://tn.linkedin.com/groups?gid=43875&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Concordia University - Computer Science Graduates",
+      "link": "https://tn.linkedin.com/groups?gid=817387&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "e-Taalim.com",
+      "link": "https://tn.linkedin.com/groups?gid=2535278&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Information Security Community",
+      "link": "https://tn.linkedin.com/groups?gid=38412&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Government Open Source Software Resource Center (GOV-OSS-RC) - a Global Resource",
+      "link": "https://tn.linkedin.com/groups?gid=865667&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Freelance tunisie",
+      "link": "https://tn.linkedin.com/groups?gid=2757060&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "eForensics Magazine",
+      "link": "https://tn.linkedin.com/groups?gid=4508439&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "FOSS Professionals",
+      "link": "https://tn.linkedin.com/groups?gid=77237&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "TUNISIAN IT & TELECOM EXPERTS & CONSULTANTS in MEA",
+      "link": "https://tn.linkedin.com/groups?gid=1770671&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "DIGITAL TRANSFORMATION (Cloud Computing, Virtualization, Social, Mobile and Big Data)",
+      "link": "https://tn.linkedin.com/groups?gid=45655&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Linux Users & Open Source Developers",
+      "link": "https://tn.linkedin.com/groups?gid=65688&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Solaris Jobs",
+      "link": "https://tn.linkedin.com/groups?gid=1333067&trk=prof-groups-membership-name"
+    }
+  ],
+  "websites": [
+    "http://www.opensource.tn"
+  ],
+  "languages": [
+   "French", 
+   "Arabic",
+   "English"
+ ],
+  "skills": [
+    "Computer Security",
+    "Network Security",
+    "Security Audits",
+    "Open Source",
+    "Linux",
+    "Software Engineering",
+    "C",
+    "Eclipse",
+    "TCP/IP",
+    "Software Development",
+    "Vulnerability Assessment",
+    "Algorithms",
+    "Security",
+    "Firewalls",
+    "Computer Science"
+  ],
+  "certifications": [
+	{
+   "title": "GIAC Certified GCIH (Advanced Incident Handling Analyst)",
+   "score": ""
+	}
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "Directeur General",
+      "company": "Agence Nationale de la Certification Electronique",
+      "duration": "1 an 3 mois",
+      "start_date": null
+    },
+    {
+      "title": "Assistant Professor",
+      "company": "ESTI",
+      "duration": "2 ans 4 mois",
+      "start_date": "2015-01-02"
+    },
+    {
+      "title": "Chief of Open Source Software Unit",
+      "company": "Ministry of Communication Technologies",
+      "description": "- Responsible and accountable for the coordinated management of multiple related actions and initiatives directed toward the national objective of promoting open source software. - Organize awareness building events, national awards, and training sessions related to open source software - Maintain communication with open source stakeholders in the public and private sectors.- Coach, mentor and lead personnel within a technical team environment. - Present periodic reports on the Open Source Software Unit activities and achievements, future actions and current issues.",
+      "duration": "3 ans 1 mois",
+      "start_date": "2012-10-03"
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Concordia University",
+      "description": "- Security Evaluation and Hardening of Free and Open Source Software (FOSS) in collaboration with DRDC (Defense Research and Development Canada) Valcartier and Bell Canada",
+      "duration": "5 ans 1 mois",
+      "start_date": "2009-09-05",
+      "linkedin_company_url": "https://www.linkedin.com/company/concordia-university?trk=ppro_cprof",
+      "url": "http://www.concordia.ca",
+      "website": "http://www.concordia.ca",
+      "industry": "Higher Education",
+      "type": "Educational Institution",
+      "headquarters": "1455 De Maisonneuve Blvd. West\n\nMontreal,\nQC\nH3G 1M8\nCanada",
+      "company_size": "5001-10,000 employees",
+      "founded": "1974",
+      "address": "1455 De Maisonneuve Blvd. West  Montreal, QC H3G 1M8 Canada"
+    },
+    {
+      "title": "Security engineer",
+      "company": "Tunisian Internet Agency",
+      "description": "- Maintained security of networks and equipments at Tunisian Internet Agency.- Responsible for support of existing security policies and procedures, as well as creation and implementation of new security procedures.- Install and maintain security infrastructure: Firewall, IDS, antivirus systems, log management, and security assessment systems.- Perform and create procedures for system security audits, penetration-tests, and vulnerability assessments for public sector institutions.",
+      "duration": "5 ans 1 mois",
+      "start_date": null
+    }
+  ],
+  "current_companies": [
+
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://tn.linkedin.com/in/haythem-ghazouani-233b5b24?trk=pub-pbmap",
+      "name": "Haythem Ghazouani",
+      "title": "Maître-assistant à l'Ecole Nationale d'Ingénieurs de Carthage",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/mokhtarbennari?trk=pub-pbmap",
+      "name": "Mokhtar Bennari"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/noomanefehri?trk=pub-pbmap",
+      "name": "Noomane Fehri",
+      "title": "Member of Parliament",
+      "company": "Tunisian Constitutional Assembly"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/walid-barhoumi-30631422?trk=pub-pbmap",
+      "name": "Walid Barhoumi",
+      "title": "Visiting Consultant chez Computer Science Department, College of Science, Sultan Qaboos University",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/majedkhalfallah?trk=pub-pbmap",
+      "name": "Majed Khalfallah",
+      "title": "Directeur Central Système d'information SONEDE",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/arbi-khelifi-0301aaa?trk=pub-pbmap",
+      "name": "Arbi Khelifi",
+      "title": "Middle East Turkey and Africa PMO/ PM Practices and Project Management Support Leader",
+      "company": "Alcatel-Lucent, PMP"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/hemissis?trk=pub-pbmap",
+      "name": "Sofiene HEMISSI",
+      "title": "CEO",
+      "company": "National Informatics Center - Tunisia"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/mohamedkhadraoui?trk=pub-pbmap",
+      "name": "Mohamed KHADRAOUI",
+      "title": "Senior Consultant, IT Spectrum+",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/neilabenlakhal?trk=pub-pbmap",
+      "name": "Dr.Neila BEN LAKHAL PhD"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/ilhem-abdelhedi-abdelmoula-aa215522?trk=pub-pbmap",
+      "name": "Ilhem Abdelhedi Abdelmoula",
+      "title": "Maitre Assistante à Enicarthage",
+      "company": null
+    }
+  ],
+  
+  "friends": [
+{
+"name": "Jomaa Farouk"
+},
+{
+"name": "Ramzi Zayene"
+},
+{
+"name": "Yassin Ben Naceur"
+}
+  ]
+}

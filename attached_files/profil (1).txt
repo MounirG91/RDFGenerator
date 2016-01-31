@@ -55,7 +55,7 @@
   "linkedin_url": "https://de.linkedin.com/in/yassin-ben-naceur-73003226",
   "education": [
     {
-      "name": "Ecole centrale de Lille",
+      "name": "École centrale de Lille",
       "description": "Master's degree, Systèmes, machines autonomes et Réseaux de Terrains",
       "degree": null,
       "major": null,
@@ -105,12 +105,13 @@
     }
   ],
   "websites": [
-   "web1",
-   "web2"
+  
   ],
   "languages": [
-   "Arabe", 
-   "French"
+   "French", 
+   "Arabic",
+   "English", 
+   "German"
   ],
   "skills": [
     "Java",
@@ -143,19 +144,20 @@
     "Weniger anzeigen"
   ],
   "certifications": [
-  { "title":"TOEIC",
-    "score":"75"
+  {
+   "title": "TOEIC",
+   "score": "920"
+  },
+  {
+   "title": "Certificat d'Internet et d'Informatique",
+   "score": ""
+  },
+  {
+   "title": "SCJP",
+   "score": "95"
   }
   ],
   "organizations": [
-	{
-      "name": "test1",
-      "link": "lien1"
-    },
-	 {
-      "name": "test2",
-      "link": "lien2"
-    }
   ],
   "past_companies": [
     {
@@ -216,7 +218,7 @@
       "website": "http://www.tekonsult.de",
       "industry": "Telecommunications",
       "type": "Privately Held",
-      "headquarters": "Wilhelm Busch Str. 12 nMünchen, Bavaria 81477 Germany",
+      "headquarters": "Wilhelm Busch Str. 12\n\nMünchen,\nBavaria\n81477\nGermany",
       "company_size": "51-200 employees",
       "founded": "2000",
       "address": "Wilhelm Busch Str. 12  München, Bavaria 81477 Germany"
@@ -293,21 +295,17 @@
       "company": null
     }
   ],
-
-"friends": [
+  
+  "friends": [
 {
-"name": "test1"
+"name": "Jomaa Farouk"
 },
 {
-"name": "test2"
+"name": "Syrine Tlili, PhD"
 },
 {
-"name": "test3"
-},
-{
-"name": "test4"
+"name": "Ramzi Zayene"
 }
   ]  
-  
-  
+
 }

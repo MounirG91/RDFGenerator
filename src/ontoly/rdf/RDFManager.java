@@ -56,6 +56,8 @@ public class RDFManager {
 	static String classEngineeringStudies = mainUri + "#engineeringStudies";
 	static String classMasterDegreeStudies = mainUri + "#masterDegreeStudies";
 	static String classLicenceDegreeStudies = mainUri + "#licenceDegreeStudies";
+	static String classCertifBox = mainUri + "#certificationInfoBox";
+	static String classrecommandedVisitor = mainUri + "#recommandedVisitor";
 
 	public void professionalToRDF(Professional professional) {
 		
@@ -130,7 +132,10 @@ public class RDFManager {
 		String propertyAdministerdByUri = mainUri + "#administredBy";
 		String propertyHasMaximumScoreUri = mainUri + "#hasMaximumScore";
 		String propertyHasScoreUri = mainUri + "#hasScore";
-	
+		String propertyHasInfoBox = mainUri + "#hasInfoBox";
+
+		String propertyCompany = mainUri + "#company";
+
 		model.setNsPrefix("lp", mainUri+"#");
 
 		//declarer les propriétés
@@ -191,6 +196,8 @@ public class RDFManager {
 		Property administredBy = model.createProperty(propertyAdministerdByUri);
 		Property hasMaximumScore = model.createProperty(propertyHasMaximumScoreUri);
 		Property hasScore = model.createProperty(propertyHasScoreUri);
+		Property hasInfoBox = model.createProperty(propertyHasInfoBox);
+		Property company = model.createProperty(propertyCompany);
 
 	String mainUriInstances = "http://linkedin_project.com/profile.rdfs-instances/";
 
@@ -219,6 +226,8 @@ public class RDFManager {
 		String preparatoryCycleUri = mainUriInstances + "preparatoryCycle/";
 		String engineeringStudiesUri = mainUriInstances + "engineeringStudies/";
 		String masterDegreeStudiesUri = mainUriInstances + "masterDegreeStudies/";
+		String certifBoxUri = mainUriInstances + "certificationInfoBox/";
+		String recommandedVisitorUri = mainUriInstances + "recommandedVisitor/";
 
 		
 		
@@ -291,26 +300,33 @@ public class RDFManager {
 			if (education.getName() != null){
 		
 		 if (education.getName().toLowerCase().contains("master") ||
-		        		   education.getDescription().toLowerCase().contains("master")   )
+		       education.getDescription().toLowerCase().contains("master") ||
+		       education.getName().toLowerCase().contains("m2")  ||
+		       education.getDescription().toLowerCase().contains("m2")||
+		       education.getName().toLowerCase().contains("m1")  ||
+		       education.getDescription().toLowerCase().contains("m1"))
 		    
 			 model.add(educationProfile, RDF.type, classMasterDegreeStudies);
-		     
+
+		  else if (education.getName().toLowerCase().contains("préparatoire") ||
+       		   education.getDescription().toLowerCase().contains("préparatoire")  ||
+       		   education.getName().toLowerCase().contains("preparatory")  ||
+       		   education.getDescription().toLowerCase().contains("preparatory") )
+
+			  model.add(educationProfile, RDF.type, classPreparatoryCycle);
+       	  
+
 		 else if (education.getName().toLowerCase().contains("ecole") ||
         		   education.getDescription().toLowerCase().contains("ecole")  ||
-        		   education.getName().toLowerCase().contains("ingenieur")  ||
-        		   education.getDescription().toLowerCase().contains("ingenieur") ||
+        		   education.getName().toLowerCase().contains("école")  ||
+        		   education.getDescription().toLowerCase().contains("école") ||
+        		   education.getName().toLowerCase().contains("ingénieur")  ||
+        		   education.getDescription().toLowerCase().contains("ingénieur") ||
         		   education.getName().toLowerCase().contains("engineer")  ||
         		   education.getDescription().toLowerCase().contains("engineer"))
 
      		model.add(educationProfile, RDF.type, classEngineeringStudies);
           
-		  else if (education.getName().toLowerCase().contains("preparatoire") ||
-        		   education.getDescription().toLowerCase().contains("preparatoire")  ||
-        		   education.getName().toLowerCase().contains("preparatory")  ||
-        		   education.getDescription().toLowerCase().contains("preparatory") )
-
-			  model.add(educationProfile, RDF.type, classPreparatoryCycle);
-        	  
 
 		  else if (education.getName().toLowerCase().contains("licence") ||
         		   education.getDescription().toLowerCase().contains("licence")   )
@@ -440,7 +456,8 @@ public class RDFManager {
 	
 		while (past_position.hasNext()) {
 			JobCompany past_post = past_position.next();
-			Resource past_postProfile = model.createResource(
+			Resource past_postProfile;
+			past_postProfile	= model.createResource(
 					postUri + professional.getName() + "/#" + past_post.getTitle());
 		
 			model.add(professionalProfile, hadPosition, past_postProfile);
@@ -500,40 +517,66 @@ public class RDFManager {
 				model.add(professionalProfile, hasFriend, friendProfile);
 		}
 	}
+
+		if (professional.getCertifications() != null) {
 		
-//		Iterator<Certification> certifications = professional.getCertifications().iterator();
-//		while (certifications.hasNext()) {
-//			Certification certification = certifications.next();
-//			Resource certificationProfile = model.createResource(
-//					certificationUri + "3" + professional.getName() + "/Certification/" + certification.getTitle());
-//			model.add(professionalProfile, hasCertification, certificationProfile);
-//		}
+		Iterator<Certification> certifications = professional.getCertifications().iterator();
+		while (certifications.hasNext()) {
+			Certification certification = certifications.next();
+			Resource certificationProfile = model.createResource(
+					certificationUri +  professional.getName() + "/#" + certification.getTitle());
+			model.add(professionalProfile, hasCertification, certificationProfile);
+
+			model.add(certificationProfile, hasTitle, certification.getTitle());
+			model.add(certificationProfile, hasScore, certification.getScore());
+
+			Resource certifInfoBox = model
+					.createResource(certifBoxUri +"#"+ certification.getTitle());
+
+			model.add(certificationProfile, hasInfoBox, certifInfoBox);
+			
+		 if (certification.getTitle().toLowerCase().contains("toeic") ||
+			certification.getTitle().toLowerCase().contains("toefl") ||
+			certification.getTitle().toLowerCase().contains("tcf")  ||
+			certification.getTitle().toLowerCase().contains("langue") ||
+			certification.getTitle().toLowerCase().contains("language")  )
+	           
+	      model.add(certificationProfile, RDF.type, classLanguageCertification);
+		 
+		 else model.add(certificationProfile, RDF.type, classITCertification);
+
+		}
+		}
 
 		
-//		if (professional.getRecommended_visitors() != null) {
-//		Iterator<RecommandedVisitor> visitors = professional.getRecommended_visitors().iterator();
-//		while (visitors.hasNext()) {
-//			RecommandedVisitor visitor = visitors.next();
-//			Resource visitorProfile = model.createResource(
-//					professionalUri + "/" + professional.getName() + "/Recommended_visitor/" + visitor.getName());
-//			model.add(professionalProfile, hasRecommandedVisitor, visitorProfile);
-//			if (visitor.getName() != null)
-//				model.add(visitorProfile, name, visitor.getName());
-//			if (visitor.getTitle() != null)
-//				model.add(visitorProfile, industry, visitor.getTitle());
-//			if (visitor.getLink() != null)
-//				model.add(visitorProfile, picture, visitor.getLink());
-//			if (visitor.getCompany() != null)
-//				model.add(visitorProfile, linkedin_url, visitor.getCompany());
-//		}
-//	}
+		if (professional.getRecommended_visitors() != null) {
+		Iterator<RecommandedVisitor> visitors = professional.getRecommended_visitors().iterator();
+		while (visitors.hasNext()) {
+			RecommandedVisitor visitor = visitors.next();
+			Resource visitorProfile = model.createResource(
+					recommandedVisitorUri + professional.getName() + "/#" + visitor.getName());
+			model.add(professionalProfile, hasRecommandedVisitor, visitorProfile);
+			if (visitor.getName() != null)
+				model.add(visitorProfile, name, visitor.getName());
+			if (visitor.getTitle() != null)
+				model.add(visitorProfile, title, visitor.getTitle());
+			if (visitor.getLink() != null)
+				model.add(visitorProfile, linkedin_url, visitor.getLink());
+
+			Resource companyProfile = model.createResource(
+					companyUri + "#" + visitor.getCompany());
+
+			if (visitor.getCompany() != null)
+				model.add(visitorProfile, company, companyProfile);
+		}
+	}
 		
 
 		model.write(System.out , "RDF/XML-ABBREV");
 
 				FileOutputStream out = null;
 				try {
-					out = new FileOutputStream("test.rdf");
+					out = new FileOutputStream("./attached_files/profil6.rdf");
 				} catch (FileNotFoundException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -590,10 +633,13 @@ public class RDFManager {
 	else if (job.getTitle().toLowerCase().contains("ingenieur") ||
 			description.toLowerCase().contains("ingenieur")  ||
 			job.getTitle().toLowerCase().contains("engineer")  ||
-			description.toLowerCase().contains("engineer") )
+			description.toLowerCase().contains("engineer")||
+			job.getTitle().toLowerCase().contains("ingénieur")  ||
+			description.toLowerCase().contains("ingénieur"))
 
 	{
 		if (job.getTitle().toLowerCase().contains("securite") ||
+				description.toLowerCase().contains("securité") ||
 				description.toLowerCase().contains("security")  )
 			
 			model.add(post, RDF.type, classSecurityEngineer);
@@ -601,22 +647,26 @@ public class RDFManager {
 		else if (job.getTitle().toLowerCase().contains("r&d") ||
 					description.toLowerCase().contains("r&d")  ||
 					job.getTitle().toLowerCase().contains("r & d")  ||
-					description.toLowerCase().contains("r & d") )
+					description.toLowerCase().contains("r & d") ||
+					job.getTitle().toLowerCase().contains("r&amp;d")  ||
+					description.toLowerCase().contains("d&amp;d") ||
+					job.getTitle().toLowerCase().contains("r&amp;d")  ||
+					description.toLowerCase().contains("r&amp;d") )
 			
 		model.add(post, RDF.type, classRandDEngineer);
 	
 		else if (job.getTitle().toLowerCase().contains("software") ||
 						description.toLowerCase().contains("software")  ||
-						job.getTitle().toLowerCase().contains("developpement")  ||
-						description.toLowerCase().contains("developpement") ||
+						job.getTitle().toLowerCase().contains("développement")  ||
+						description.toLowerCase().contains("développement") ||
 						job.getTitle().toLowerCase().contains("development")  ||
 						description.toLowerCase().contains("development") ||
 						job.getTitle().toLowerCase().contains("logiciel")  ||
 						description.toLowerCase().contains("logiciel") ||
 						job.getTitle().toLowerCase().contains("developer")  ||
 						description.toLowerCase().contains("developer") ||
-						job.getTitle().toLowerCase().contains("developpeur")  ||
-						description.toLowerCase().contains("developpeur") )
+						job.getTitle().toLowerCase().contains("développeur")  ||
+						description.toLowerCase().contains("développeur") )
 			
 		model.add(post, RDF.type, classDevelopmentEngineer);
 	

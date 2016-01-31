@@ -1,0 +1,310 @@
+{
+  "name": "Amen Ouali",
+  "first_name": "Amen",
+  "last_name": "Ouali",
+  "title": "IT security intern - ISO 27001 implementation",
+  "location": "Biot",
+  "number_of_connections": "500",
+  "country": "France",
+  "industry": "Télécommunications",
+  "summary": null,
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAASxAAAAJGMwMTIwYWI5LWIxNTgtNDc4MC04ZTg4LWMyODYyYzdlZTM4Mw.jpg",
+  "projects": [
+    {
+      "title": "Electronical Content Management- ECM",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "This project consists on managing and storing the documents of the association R.E.S.O - organize the work between the association members .- facilitate the control of information flow for managers.- work on ALFRESCO interface",
+      "associates": [
+        "Amen Ouali",
+        "Mohamed Amine REKIK"
+      ]
+    },
+    {
+      "title": "Car Rental web service",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "Developing a car rental web service Keywords : .Net framework",
+      "associates": [
+        "Amen Ouali",
+        "Hela Tajouri"
+      ]
+    },
+    {
+      "title": "Photo sharing using smartphone and owncloud",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "-\tDeployment and configuration of owncloud on raspberrypi-\tModelling of secure protocol to connect the mobile app to owncloud",
+      "associates": [
+        "Amen Ouali",
+        "Shiqian YU"
+      ]
+    }
+  ],
+  "linkedin_url": "https://fr.linkedin.com/in/amen-ouali-b5954458",
+  "education": [
+    {
+      "name": "Telecom Paris Tech, Campus Sophia Tech, Eurecom",
+      "description": "Master of Science (M.Sc.), Computer and Information Systems Security/Information Assurance",
+      "degree": null,
+      "major": null,
+      "period": "2014 – 2016",
+      "start_date": "2014",
+      "end_date": "2016"
+    },
+    {
+      "name": "Sup'Com",
+      "description": ", Telecommunications Engineering",
+      "degree": null,
+      "major": null,
+      "period": "2012 – 2015",
+      "start_date": "2012",
+      "end_date": "2015"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Purdue University",
+      "link": "https://fr.linkedin.com/groups?gid=38145&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Computer Security Institute",
+      "link": "https://fr.linkedin.com/groups?gid=74720&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "High-Tech Product Strategy",
+      "link": "https://fr.linkedin.com/groups?gid=1856893&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Carrière & Emploi - Candidat-Online",
+      "link": "https://fr.linkedin.com/groups?gid=2723531&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Cryptographers and Cryptanalysts",
+      "link": "https://fr.linkedin.com/groups?gid=3901854&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "MBA-Exchange.com - MBA jobs, MBA Recruitment, Business Schools",
+      "link": "https://fr.linkedin.com/groups?gid=1914651&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Accidental Quants",
+      "link": "https://fr.linkedin.com/groups?gid=4363369&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Entraide JOB",
+      "link": "https://fr.linkedin.com/groups?gid=4352462&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "IT Specialist Network",
+      "link": "https://fr.linkedin.com/groups?gid=37485&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "SupCom",
+      "link": "https://fr.linkedin.com/groups?gid=3247423&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Rutgers University",
+      "link": "https://fr.linkedin.com/groups?gid=85137&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Tunisian engineers",
+      "link": "https://fr.linkedin.com/groups?gid=63505&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Structural Engineer USA",
+      "link": "https://fr.linkedin.com/groups?gid=2464054&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "TUNISIAN IT & TELECOM EXPERTS & CONSULTANTS in MEA",
+      "link": "https://fr.linkedin.com/groups?gid=1770671&trk=prof-groups-membership-name"
+    }
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+   "French", 
+   "Arabic",
+   "English", 
+   "German",   
+   "Spanish", 
+   "Italian"
+  ],
+  "skills": [
+    "IT Security Policies",
+    "ISO 27001",
+    "ISO 27002",
+    "iso 27035",
+    "IT Security Assessments",
+    "IT Security Operations",
+    "IT Security Policies & Procedures",
+    "Java",
+    "IT Security Best Practices",
+    "C",
+    "Linux",
+    "Programming",
+    "Gantt Project",
+    "Telecommunications",
+    "Management",
+    "Project Management",
+    "Voir + de 13",
+    "Turbo Pascal",
+    "Alfresco",
+    "Visual C#",
+    "Microsoft SQL Server",
+    "Algorithms",
+    "Engineering",
+    "MySQL",
+    "GSM",
+    "Gestion de projet",
+    "Visual Studio",
+    "ns 3",
+    "Programmation",
+    "Business Analytics",
+    "Voir moins"
+  ],
+  "certifications": [
+  {
+   "title": "CCNA 1, CCNA 2, CCNA 3",
+   "score": ""
+  },
+  {
+   "title": "LPIC1",
+   "score": ""
+  }
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "ISO 27001 implementation consultant - Intern",
+      "company": "Amadeus IT Group",
+      "description": "ISO 27001 implementation in Global Business Services- Procedures architecture- Risk analysis- Processes’ design- Roles and responsibilities’ definition- KPIs’ definitionSubjects: Patch Management, Leaver process, Security Incident Management, New workstations deployment, Antivirus",
+      "duration": "7 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/amadeus?trk=ppro_cprof",
+      "url": "http://www.amadeus.com",
+      "website": "http://www.amadeus.com",
+      "industry": "Information Technology and Services",
+      "type": "Public Company",
+      "headquarters": "C/Salvador de Madariaga 1\n\nMadrid,\n\n28027\nSpain",
+      "company_size": "10,001+ employees",
+      "founded": "1987",
+      "address": "C/Salvador de Madariaga 1  Madrid,  28027 Spain"
+    },
+    {
+      "title": "Intern",
+      "company": "OXIA",
+      "description": "Simulation of GPSR routing protocol in wired network- Integration of the protocol on test architecture.- Simulation and results’ interpretation.",
+      "duration": "3 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/oxia?trk=ppro_cprof",
+      "url": "http://www.oxia-group.com",
+      "website": "http://www.oxia-group.com",
+      "industry": "Information Technology and Services",
+      "type": "Partnership",
+      "headquarters": "Technopark El Ghazela - 2088 Tunis- Tunisia\n\nTunis,\n\n\nTunisia",
+      "company_size": "201-500 employees",
+      "founded": "1998",
+      "address": "Technopark El Ghazela - 2088 Tunis- Tunisia  Tunis,   Tunisia"
+    },
+    {
+      "title": "Intern2",
+      "company": "Ooredoo Tunisie",
+      "description": "Development of incident management tool - Baseline review and classification of the incident- Conception of the technical solution- Development of the technical solution",
+      "duration": "2 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/ooredootn?trk=ppro_cprof",
+      "url": "http://www.ooredoo.tn",
+      "website": "http://www.ooredoo.tn",
+      "industry": "Telecommunications",
+      "type": "Privately Held",
+      "headquarters": "Immeuble Zénith - Les Jardins du LAC\nLAC II\nTunis,\nTunis\n\nTunisia",
+      "company_size": "1001-5000 employees",
+      "founded": "2002",
+      "address": "Immeuble Zénith - Les Jardins du LAC LAC II Tunis, Tunis  Tunisia"
+    }
+  ],
+  "current_companies": [
+
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://fr.linkedin.com/in/helatajouri?trk=pub-pbmap",
+      "name": "Hela Tajouri",
+      "title": "Master Thesis Student",
+      "company": "Intel Corporation"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/oussamabap?trk=pub-pbmap",
+      "name": "BEN ALAYA OUSSAMA",
+      "title": "Ingénieur Interco et Roaming chez Ooredoo Tunisie",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/zayani-dabbabi-744606a5?trk=pub-pbmap",
+      "name": "Zayani Dabbabi",
+      "title": "Intern",
+      "company": "Amadeus IT Group"
+    },
+    {
+      "link": "https://fr.linkedin.com/in/chouaibi-monia-90543871?trk=pub-pbmap",
+      "name": "CHOUAIBI Monia",
+      "title": "Ingénieur en Télécommunications, Master International en Communications Mobiles",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/raoua-zouabi-9b111a72?trk=pub-pbmap",
+      "name": "Raoua Zouabi",
+      "title": "IT Risk Consultant chez KPMG France",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/mohamed-amine-rekik-6b374367?trk=pub-pbmap",
+      "name": "Mohamed Amine REKIK",
+      "title": "Assistant Project Manager chez BNP Paribas",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/youssef-balma-69b2ab95?trk=pub-pbmap",
+      "name": "Youssef Balma",
+      "title": "Ingénieur en traitement d'image chez Parrot",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/mohamed-ben-makhlouf-a9949989?trk=pub-pbmap",
+      "name": "Mohamed Ben Makhlouf",
+      "title": "CTO & Founder chez Grant FIT",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/chaima-ben-rabah-13169b63?trk=pub-pbmap",
+      "name": "Chaima Ben Rabah",
+      "title": "CEO & Founder chez Grant FIT",
+      "company": null
+    },
+    {
+      "link": "https://fr.linkedin.com/in/marwen?trk=pub-pbmap",
+      "name": "Marwen Dhemaied",
+      "title": "IT Engineering Student",
+      "company": null
+    }
+  ],
+  
+  "friends": [
+{
+"name": "Mounir Guizani"
+},
+{
+"name": "Khaled Ben Driss"
+},
+{
+"name": "Hela Tajouri"
+}
+  ] 
+}

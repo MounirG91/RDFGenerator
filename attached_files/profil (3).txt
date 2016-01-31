@@ -1,0 +1,210 @@
+{
+  "name": "Jomaa Farouk",
+  "first_name": "Jomaa",
+  "last_name": "Farouk",
+  "title": "SAP ABAP Developer at Focus & Focus International",
+  "location": "تونس",
+  "number_of_connections": "268",
+  "country": "تونس",
+  "industry": "برامج الكمبيوتر",
+  "summary": null,
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/005/046/066/3aa5033.jpg",
+  "projects": [
+
+  ],
+  "linkedin_url": "https://tn.linkedin.com/in/jomaa-farouk-1b44967a",
+  "education": [
+    {
+      "name": "École Nationale des Sciences de l'Informatique",
+      "description": "Engineer's degree, IT",
+      "degree": null,
+      "major": null,
+      "period": "2011 – 2014",
+      "start_date": "2011",
+      "end_date": "2014"
+    },
+    {
+      "name": "Institut Préparatoire aux Etudes d'Ingénieurs el Manar",
+      "description": ", Physics and Technology",
+      "degree": null,
+      "major": null,
+      "period": "2009 – 2011",
+      "start_date": "2009",
+      "end_date": "2011"
+    },
+    {
+      "name": "Lycée 20 Mars Sousse",
+      "description": "Bachelor's Degree, Technical Sciences",
+      "degree": null,
+      "major": null,
+      "period": "2008 – 2009",
+      "start_date": "2008",
+      "end_date": "2009"
+    }
+  ],
+  "groups": [
+    {
+      "name": "L'école nationale des sciences de l'informatiques (ENSI)",
+      "link": "https://tn.linkedin.com/groups?gid=5088440&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "SAP Community",
+      "link": "https://tn.linkedin.com/groups?gid=36867&trk=prof-groups-membership-name"
+    }
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+   "French", 
+   "Arabic",
+   "English", 
+   "German"
+  ],
+  "skills": [
+    "Java",
+    "ABAP",
+    "ABAP-OO",
+    "ABAP Web Dynpro",
+    "Android Development",
+    "Java Enterprise Edition",
+    "Linux",
+    "Arduino",
+    "Python",
+    "DLP",
+    "Django"
+  ],
+  "certifications": [
+	{
+	"title" : "TOEIC",
+	"score" : "865"
+	}
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "SAP ABAP Developer",
+      "company": "Focus & Focus International",
+      "duration": "عام واحد 3 شهور",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/focus-&-focus-international?trk=ppro_cprof",
+      "url": "http://www.focus-corporation.com",
+      "website": "http://www.focus-corporation.com",
+      "industry": "Information Technology and Services",
+      "type": "Privately Held",
+      "company_size": "201-500 employees",
+      "founded": "2003"
+    },
+    {
+      "title": "Graduation internship",
+      "company": "CSTB",
+      "duration": "6 شهور",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/cstb?trk=ppro_cprof",
+      "url": "http://www.cstb.fr/",
+      "website": "http://www.cstb.fr/",
+      "industry": "Renewables & Environment",
+      "type": "Nonprofit",
+      "headquarters": "84 Avenue Jean Jaurès\nChamps-sur-Marne\nMARNE-LA-VALLEE Cedex 2,\nSeine et Marne\n77447\nFrance",
+      "company_size": "501-1000 employees",
+      "founded": "1947",
+      "address": "84 Avenue Jean Jaurès Champs-sur-Marne MARNE-LA-VALLEE Cedex 2, Seine et Marne 77447 France"
+    },
+    {
+      "title": "Trainee",
+      "company": "Tekonsult",
+      "duration": "3 شهور",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/tekonsult?trk=ppro_cprof",
+      "url": "http://www.tekonsult.de",
+      "website": "http://www.tekonsult.de",
+      "industry": "Telecommunications",
+      "type": "Privately Held",
+      "headquarters": "Wilhelm Busch Str. 12\n\nMünchen,\nBavaria\n81477\nGermany",
+      "company_size": "51-200 employees",
+      "founded": "2000",
+      "address": "Wilhelm Busch Str. 12  München, Bavaria 81477 Germany"
+    }
+  ],
+  "current_companies": [
+
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://tn.linkedin.com/in/sirine-melki-65b01250?trk=pub-pbmap",
+      "name": "Sirine Melki"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/khaled-boukari-9631983a?trk=pub-pbmap",
+      "name": "Khaled Boukari",
+      "title": "Ingénieur Développeur SAP chez FOCUS",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/mohamed-mezhoud-78b437a5?trk=pub-pbmap",
+      "name": "Mohamed Mezhoud",
+      "title": "Computer Science Engineer chez Focus",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/ketata-jawhar-00302531?trk=pub-pbmap",
+      "name": "Ketata Jawhar",
+      "title": "Consultant Technique SAP",
+      "company": "Iliade Consulting"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/jihedmestiri?trk=pub-pbmap",
+      "name": "Jihed Mestiri",
+      "title": "Software Engineer, ABAP Dev. Interested in Artificial Intelligence",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/miriam-dahmoun-44aa212?trk=pub-pbmap",
+      "name": "Miriam Dahmoun"
+    },
+    {
+      "link": "https://tn.linkedin.com/in/mejdi-ben-jelloul-2043751a?trk=pub-pbmap",
+      "name": "Mejdi Ben Jelloul",
+      "title": "SAP Consultant chez Focus & Focus International",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/rim-frikha-ab60a453?trk=pub-pbmap",
+      "name": "Rim Frikha",
+      "title": "Software Engineer chez Lyance",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/elyes-chetoui-43781277?trk=pub-pbmap",
+      "name": "ELyes Chetoui",
+      "title": "RSSI chez Banque de Tunisie et des Emirats",
+      "company": null
+    },
+    {
+      "link": "https://tn.linkedin.com/in/momtez-sebai-istqb-%C2%AE-b2574972?trk=pub-pbmap",
+      "name": "Momtez Sebai ISTQB ®",
+      "title": "SAP Quality Assurance & Sofware Development Engineer",
+      "company": "FOCUS(SAP)"
+    }
+  ],
+  
+  "friends": [
+{
+"name": "Syrine Tlili, PhD"
+},
+{
+"name": "Mounir Guizani"
+},
+{
+"name": "Ahmed REBAI"
+},
+{
+"name": "Ramzi Zayene"
+},
+{
+"name": "Yassin Ben Naceur"
+}
+  ]  
+}

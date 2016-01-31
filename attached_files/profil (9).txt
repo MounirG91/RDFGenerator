@@ -1,0 +1,283 @@
+{
+  "name": "Hela Tajouri",
+  "first_name": "Hela",
+  "last_name": "Tajouri",
+  "title": "Master Thesis Student at Intel Corporation",
+  "location": "München",
+  "number_of_connections": "356",
+  "country": "Germany",
+  "industry": "Information Technology and Services",
+  "summary": "- A masters exchange student with a background in Communication Engineering at Technische Üniversität München (TUM) searching for a graduate position in a dynamic organization",
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/0a5/34c/351bfe7.jpg",
+  "projects": [
+    {
+      "title": "Entrepreneurship Challenge",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "Finalist team :Development of an innovative idea and a business plan to start a business ",
+      "associates": [
+        "Hela Tajouri",
+        "Mohamed Omar MAZOUZ"
+      ]
+    },
+    {
+      "title": "Implementation of an orientation filter using measurements from gyroscope, accelerometer and magnetometer in a mobile device using a neural network and the Android APIs",
+      "link": "https://www.nst.ei.tum.de/fileadmin/w00bqs/www/publications/pp/2015SS-PP-CorticallyInspiredSensorFusion.pdf",
+      "start_date": null,
+      "end_date": null,
+      "description": "Smartphones develop in a rapid speed in recent years, and they are helping andchanging the way of our living. The sensors embedded in them provide various possibilitiesfor mobile applications and these sensors are the key factors of developingmore and more interesting smart-phone applications. Some applications require precisemeasurements from sensors to capture information about device movement andorientation. In this project we present a implementation of a cortically inspired sensorfusion model, which given various sensory inputs, relaxes into a solution whichprovides a good estimation of the orientation of a mobile device.In this project an orientation filter was implemented using measurements from gyroscope, accelerometer and magnetometer in a smartphone using the proposed neural model and the Android APIs",
+      "associates": [
+        "Hela Tajouri",
+        "Markus Steppberger"
+      ]
+    },
+    {
+      "title": "Object Velocities Estimation",
+      "link": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "Implementation of an algorithm to solve the optical flow map between two image frames using the Horn-Schunk method in MATLAB.",
+      "associates": [
+        "Hela Tajouri",
+        "Kunpeng Yao"
+      ]
+    }
+  ],
+  "linkedin_url": "https://de.linkedin.com/in/helatajouri/en",
+  "education": [
+    {
+      "name": "Technische Universität München",
+      "description": ", Electrical engineering and information technology",
+      "degree": null,
+      "major": null,
+      "period": "2014 – 2015",
+      "start_date": "2014",
+      "end_date": "2015"
+    },
+    {
+      "name": "Sup'Com",
+      "description": "Telecommunications Engineering",
+      "degree": null,
+      "major": null,
+      "period": "2012 – 2013",
+      "start_date": "2012",
+      "end_date": "2013"
+    },
+    {
+      "name": "Preparatory Institute of Engineering Studies of Tunis",
+      "description": ", Mathematics and Physics",
+      "degree": null,
+      "major": null,
+      "period": "2010 – 2012",
+      "start_date": "2010",
+      "end_date": "2012"
+    },
+    {
+      "name": "Elite High School",
+      "description": "High School Diploma, Mathematics, 90%",
+      "degree": null,
+      "major": null,
+      "period": null,
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "groups": [
+
+  ],
+  "websites": [
+
+  ],
+  "languages": [
+   "French", 
+   "Arabic",
+   "English", 
+   "German"
+  ],
+  "skills": [
+
+  ],
+  "certifications": [
+  {
+   "title": "CCNA 1, CCNA 2, CCNA 3",
+   "score": ""
+  },
+  {
+   "title": "TOEIC",
+   "score": "850"
+  }
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "Working Student",
+      "company": "Intel Corporation",
+      "duration": "8 months",
+      "start_date": "2015-08-08",
+      "linkedin_company_url": "https://www.linkedin.com/company/intel-corporation?trk=ppro_cprof",
+      "url": "http://www.intel.com",
+      "website": "http://www.intel.com",
+      "industry": "Semiconductors",
+      "type": "Public Company",
+      "headquarters": "Robert Noyce Building\n\nSanta Clara,\nCalifornia\n95052\nUnited States",
+      "company_size": "10,001+ employees",
+      "founded": "1968",
+      "address": "Robert Noyce Building  Santa Clara, California 95052 United States"
+    },
+    {
+      "title": "Intern",
+      "company": "Talan Tunisie",
+      "duration": "3 months",
+      "start_date": "2014-08-03",
+      "linkedin_company_url": "https://www.linkedin.com/company/talan-tunisie?trk=ppro_cprof",
+      "url": "http://www.talan.tn",
+      "website": "http://www.talan.tn",
+      "industry": "Information Technology and Services",
+      "type": "Privately Held",
+      "headquarters": "Rue de l'Energie Solaire\nImpasse N°1\nCharguia 1,\n\n2035\nTunisia",
+      "company_size": "201-500 employees",
+      "founded": "2007",
+      "address": "Rue de l'Energie Solaire Impasse N°1 Charguia 1,  2035 Tunisia"
+    },
+    {
+      "title": "Intern2",
+      "company": "SFM Telecom-SFM Technologies",
+      "duration": "6 months",
+      "start_date": "2014-03-06",
+      "linkedin_company_url": "https://www.linkedin.com/company/sfm-telecom-sfm-technologies?trk=ppro_cprof",
+      "url": "http://www.sfmtelecom.com",
+      "website": "http://www.sfmtelecom.com",
+      "industry": "Telecommunications",
+      "type": "Privately Held",
+      "headquarters": "1004\nTunisia",
+      "company_size": "1-10 employees",
+      "founded": "1995",
+      "address": "1004 Tunisia"
+    },
+    {
+      "title": "Intern3",
+      "company": "Ooredoo Tunisie",
+      "duration": "1 month",
+      "start_date": "2013-08-01",
+      "linkedin_company_url": "https://www.linkedin.com/company/ooredootn?trk=ppro_cprof",
+      "url": "http://www.ooredoo.tn",
+      "website": "http://www.ooredoo.tn",
+      "industry": "Telecommunications",
+      "type": "Privately Held",
+      "headquarters": "Immeuble Zénith - Les Jardins du LAC\nLAC II\nTunis,\nTunis\n\nTunisia",
+      "company_size": "1001-5000 employees",
+      "founded": "2002",
+      "address": "Immeuble Zénith - Les Jardins du LAC LAC II Tunis, Tunis  Tunisia"
+    },
+    {
+      "title": "Intern4",
+      "company": "Talan Tunisie",
+      "duration": "2 months",
+      "start_date": "2013-07-02",
+      "linkedin_company_url": "https://www.linkedin.com/company/talan-tunisie?trk=ppro_cprof",
+      "url": "http://www.talan.tn",
+      "website": "http://www.talan.tn",
+      "industry": "Information Technology and Services",
+      "type": "Privately Held",
+      "headquarters": "Rue de l'Energie Solaire\nImpasse N°1\nCharguia 1,\n\n2035\nTunisia",
+      "company_size": "201-500 employees",
+      "founded": "2007",
+      "address": "Rue de l'Energie Solaire Impasse N°1 Charguia 1,  2035 Tunisia"
+    }
+  ],
+  "current_companies": [
+    {
+      "title": "Master Thesis Student",
+      "company": "Intel Corporation",
+      "duration": "5 months",
+      "start_date": "2015-09-01",
+      "end_date": "Present",
+      "linkedin_company_url": "https://www.linkedin.com/company/intel-corporation?trk=ppro_cprof",
+      "url": "http://www.intel.com",
+      "website": "http://www.intel.com",
+      "industry": "Semiconductors",
+      "type": "Public Company",
+      "headquarters": "Robert Noyce Building\n\nSanta Clara,\nCalifornia\n95052\nUnited States",
+      "company_size": "10,001+ employees",
+      "founded": "1968",
+      "address": "Robert Noyce Building  Santa Clara, California 95052 United States"
+    }
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://de.linkedin.com/in/oussamabap?trk=pub-pbmap",
+      "name": "BEN ALAYA OUSSAMA",
+      "title": "Ingénieur Interco et Roaming chez Ooredoo Tunisie",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/zayani-dabbabi-744606a5?trk=pub-pbmap",
+      "name": "Zayani Dabbabi",
+      "title": "Intern",
+      "company": "Amadeus IT Group"
+    },
+    {
+      "link": "https://de.linkedin.com/in/amen-ouali-b5954458?trk=pub-pbmap",
+      "name": "Amen Ouali",
+      "title": "IT security intern - ISO 27001 implementation",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/anis-gharbi-b4b46b5b?trk=pub-pbmap",
+      "name": "Anis Gharbi",
+      "title": "Security Engineer",
+      "company": "Standard Sharing Software (3S)"
+    },
+    {
+      "link": "https://de.linkedin.com/in/mohamed-amine-rekik-6b374367?trk=pub-pbmap",
+      "name": "Mohamed Amine REKIK",
+      "title": "Assistant Project Manager chez BNP Paribas",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/youssef-balma-69b2ab95?trk=pub-pbmap",
+      "name": "Youssef Balma",
+      "title": "Ingénieur en traitement d'image chez Parrot",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/mohamed-ben-makhlouf-a9949989?trk=pub-pbmap",
+      "name": "Mohamed Ben Makhlouf",
+      "title": "CTO & Founder chez Grant FIT",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/chaima-ben-rabah-13169b63?trk=pub-pbmap",
+      "name": "Chaima Ben Rabah",
+      "title": "CEO & Founder chez Grant FIT",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/meryem-tebessi-57251884?trk=pub-pbmap",
+      "name": "Meryem Tebessi",
+      "title": "Functional Analyst chez Sofrecom Tunisie",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/marwen?trk=pub-pbmap",
+      "name": "Marwen Dhemaied",
+      "title": "IT Engineering Student",
+      "company": null
+    }
+  ],
+  
+  "friends": [
+{
+"name": "Mounir Guizani"
+},
+{
+"name": "Khaled Ben Driss"
+},
+{
+"name": "Amen Ouali"
+}
+  ]
+}

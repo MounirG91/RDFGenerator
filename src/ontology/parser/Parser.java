@@ -1,9 +1,10 @@
 package ontology.parser;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
-
+import java.io.InputStreamReader;
 
 import com.google.gson.Gson;
 
@@ -16,8 +17,8 @@ public class Parser {
 		Gson gson = new Gson();
 		Professional professional = new Professional();
 		try {
-			BufferedReader br = new BufferedReader(new FileReader(fileLocation));
-			professional = gson.fromJson(br, Professional.class);
+			InputStreamReader inputStram = new InputStreamReader(new FileInputStream(fileLocation), "UTF-8");
+			professional = gson.fromJson(inputStram, Professional.class);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

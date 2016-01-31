@@ -1,0 +1,322 @@
+{
+  "name": "Achraf Aouadi",
+  "first_name": "Achraf",
+  "last_name": "Aouadi",
+  "title": "Technical Sales Engineer at Bosch",
+  "location": "Région de Stuttgart",
+  "number_of_connections": "500",
+  "country": "Allemagne",
+  "industry": "Industrie automobile",
+  "summary": "- Computer Science Engineer with a main focus on Automotive Embedded and Real Time Systems.- \"Addicted\" to volunteering and extra-curricular work with Associations and NGOs.- Good technical background in software design, architecture and development.- Strong teamwork, collaboration and leadership skills developed throughout several national and international extra-curricular activities and responsibilities.- Software developer fascinated with automotive and aeronautic cutting-edge technologies with a continuous will to enrich my knowledge in such fields.- Key fields:Advanced Driving Assistance Systems (ADAS) - AutomotiveScheduling in Real Time Embedded Operating SystemsTechnology-Applied Computer Science EngineeringHigh-Level Object-Oriented ProgrammingCommunication, Networks & Protocols",
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/000/243/17b/39e7389.jpg",
+  "projects": [
+
+  ],
+  "linkedin_url": "https://de.linkedin.com/in/achrafaouadi/fr",
+  "education": [
+    {
+      "name": "École Nationale des Sciences de l'Informatique",
+      "description": "Engineering Degree, Comptuer Science Engineering, Good",
+      "degree": null,
+      "major": null,
+      "period": "2009 – 2012",
+      "start_date": "2009",
+      "end_date": "2012"
+    },
+    {
+      "name": "Preparatory Institute of Engineering Studies of Tunis",
+      "description": "First Cycle of University Studies Diploma, Maths - Physics",
+      "degree": null,
+      "major": null,
+      "period": "2007 – 2009",
+      "start_date": "2007",
+      "end_date": "2009"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Automotive Embedded Professionals",
+      "link": "https://de.linkedin.com/groups?gid=2727020&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Job Postings Group (#1 in Jobs, Recruiters, HR, Managers, Finance, Marketing & Technology)",
+      "link": "https://de.linkedin.com/groups?gid=2881314&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Network of English-Speaking Tunisians (NEST)",
+      "link": "https://de.linkedin.com/groups?gid=1949974&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Automotive Electronics and Embedded Software",
+      "link": "https://de.linkedin.com/groups?gid=1474397&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "ENSI Microsoft Club",
+      "link": "https://de.linkedin.com/groups?gid=3957361&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Android Developer Group",
+      "link": "https://de.linkedin.com/groups?gid=86481&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Tunisian engineers",
+      "link": "https://de.linkedin.com/groups?gid=63505&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Business opportunities in Tunisia",
+      "link": "https://de.linkedin.com/groups?gid=4411543&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Careers International Network",
+      "link": "https://de.linkedin.com/groups?gid=161313&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Tunesische Akademiker Gesellschaft",
+      "link": "https://de.linkedin.com/groups?gid=3979546&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "Dubai Recruitment",
+      "link": "https://de.linkedin.com/groups?gid=102696&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "JADE and JEs Alumni",
+      "link": "https://de.linkedin.com/groups?gid=747&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "IT, Technology, Engineering and Science Jobs and Careers",
+      "link": "https://de.linkedin.com/groups?gid=2881349&trk=prof-groups-membership-name"
+    },
+    {
+      "name": "beginner embedded engineering",
+      "link": "https://de.linkedin.com/groups?gid=4409200&trk=prof-groups-membership-name"
+    }
+  ],
+  "websites": [
+    "http://achin15.wordpress.com"
+  ],
+  "languages": [
+   "French", 
+   "Arabic",
+   "English", 
+   "German"
+  ],
+  "skills": [
+    "Linux",
+    "C",
+    "Embedded Systems",
+    "C++",
+    "Java",
+    "Real Time",
+    "Automotive",
+    "Android",
+    "UML",
+    "MySQL",
+    "Software Design",
+    "Testing",
+    "OOP",
+    "Java Enterprise Edition",
+    "Software Development",
+    "Voir + de 8",
+    "Perl",
+    "Networking",
+    "AUTOSAR",
+    "Sparx Enterprise Architect",
+    "Leadership",
+    "Communication",
+    "Intercultural Communication",
+    "Project Coordination",
+    "Voir moins"
+  ],
+  "certifications": [
+   {
+   "title" : "Inter-Cultural 1-week training for international Engineers",
+   "score" : ""
+   },
+   {
+   "title" : "TOEIC",
+   "score" : "910"
+   },
+   {
+   "title" : "B2 Certification in German Language",
+   "score" : "87"
+   },
+   {
+   "title" : "TOEFL",
+   "score" : "97"
+   }
+  ],
+  "organizations": [
+
+  ],
+  "past_companies": [
+    {
+      "title": "Technical Sales Engineer",
+      "company": "Bosch",
+      "description": "Gasoline Systems - Air ManagementWorldwide Connectors Sales - OEMsLow-poler Car Connectors",
+      "duration": "7 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/bosch?trk=ppro_cprof",
+      "url": "http://www.bosch.com",
+      "website": "http://www.bosch.com",
+      "industry": "Mechanical or Industrial Engineering",
+      "type": "Privately Held",
+      "company_size": "10,001+ employees",
+      "founded": "1886"
+    },
+    {
+      "title": "Participant in the Pilot Project: Promotion of Highly-skilled Tunisian Young Engineers",
+      "company": "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "description": "Tunisian-German Cooperation Program (GIZ & German Ministry of Foreign Affairs)A 5-month phase of intensive German learning (professional & everyday-life German) and a traineship to active and cross-cultural life.A 6-month internship in Continental Automotive GmbH.",
+      "duration": "3 ans 1 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/deutsche-gesellschaft-f-r-internationale-zusammenarbeit-giz-gmbh?trk=ppro_cprof",
+      "url": "http://www.giz.de",
+      "website": "http://www.giz.de",
+      "industry": "International Trade and Development",
+      "type": "Government Agency",
+      "company_size": "10,001+ employees"
+    },
+    {
+      "title": "Automotive Software Engineer",
+      "company": "Valeo",
+      "description": "Business Group: Comfort & Advanced Driving Assistance SystemsProduct Group: Driving AssistanceUltrasonic Sensors-based Automotive Software for Automotive Leaders OEMs.Developing software according to AUTOSAR architecture for:- Ultrasonic Park Assist - UPA- Blind Spot Detection - BSD- Emergency Breaking and Drive Control.",
+      "duration": "1 an 10 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/valeo?trk=ppro_cprof",
+      "url": "http://www.valeo.com",
+      "website": "http://www.valeo.com",
+      "industry": "Automotive",
+      "type": "Public Company",
+      "headquarters": "43 rue Bayen\n\nParis,\n\n75017\nFrance",
+      "company_size": "10,001+ employees",
+      "founded": "1923",
+      "address": "43 rue Bayen  Paris,  75017 France"
+    },
+    {
+      "title": "Project Internship",
+      "company": "Continental",
+      "description": "Commercial Vehicles - Digital tachograph- Tachograph software development.- Security handling in driver-related data transfer and geographic data storage.",
+      "duration": "2 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/continental?trk=ppro_cprof",
+      "url": "http://www.continental-corporation.com",
+      "website": "http://www.continental-corporation.com",
+      "industry": "Automotive",
+      "type": "Public Company",
+      "headquarters": "Vahrenwalder Str. 9,\n\nHannover,\n\nD-30165\nGermany",
+      "company_size": "10,001+ employees",
+      "founded": "1871",
+      "address": "Vahrenwalder Str. 9,  Hannover,  D-30165 Germany"
+    },
+    {
+      "title": "Engineer Diploma Thesis",
+      "company": "Robert BOSCH GmbH",
+      "description": "Business Group: Gasoline SystemsDivision: Electric Vehicle and Hybrid Technology- Thesis Topic: Multitasking, monitoring and processes scheduling in a real-time automotive embedded operating systemMain Task: Implementation of a process-execution and scheduling monitoring solution, integration and testing in the Testbench, offline computing tool development",
+      "duration": "8 mois",
+      "start_date": "2012-10-08",
+      "linkedin_company_url": "https://www.linkedin.com/company/bosch?trk=ppro_cprof",
+      "url": "http://www.bosch.com",
+      "website": "http://www.bosch.com",
+      "industry": "Mechanical or Industrial Engineering",
+      "type": "Privately Held",
+      "company_size": "10,001+ employees",
+      "founded": "1886"
+    },
+    {
+      "title": "Internship",
+      "company": "Cynapsys It Hotspot",
+      "description": "- Topic: Development of a Human-Computer Interface to command an LCD screen of an electronic card.- Description: Design of a graphical user interface which sends commands to be displayed on an LCD screen- Used technologies and Keywords: Linux, C, VIPER, SDL graphical library",
+      "duration": "3 mois",
+      "start_date": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/cynapsys-it-hotspot?trk=ppro_cprof",
+      "url": "http://www.cynapsys.de",
+      "website": "http://www.cynapsys.de",
+      "industry": "Computer Software",
+      "type": "Privately Held",
+      "headquarters": "Parc Technlogique Ghazela\n\nAriana,\n\n2088\nTunisia",
+      "company_size": "51-200 employees",
+      "founded": "2004",
+      "address": "Parc Technlogique Ghazela  Ariana,  2088 Tunisia"
+    },
+    {
+      "title": "Voluntary Internship",
+      "company": "One TECH Development",
+      "description": "- Topic: Set up and deployment of network monitoring and administration system (Nagios).- Description: Monitoring, controlling & configuring network equipments (switches, routers, servers)- Used technologies and Keywords: Linux, Cisco, SNMP, Nagios",
+      "duration": "2 mois",
+      "start_date": "2010-09-02",
+      "linkedin_company_url": "https://www.linkedin.com/company/one-tech-development?trk=ppro_cprof",
+      "url": "http://www.onetech-dev.com",
+      "website": "http://www.onetech-dev.com",
+      "industry": "Telecommunications",
+      "type": "Privately Held",
+      "headquarters": "16, rue des Entrepreneurs - Z.I. Charguia II B.P. 300\nTunis Belvédère,\n1002\nTunisia",
+      "company_size": "11-50 employees",
+      "address": "16, rue des Entrepreneurs - Z.I. Charguia II B.P. 300 Tunis Belvédère, 1002 Tunisia"
+    }
+  ],
+  "current_companies": [
+
+  ],
+  "recommended_visitors": [
+    {
+      "link": "https://de.linkedin.com/in/rymbourguiba?trk=pub-pbmap",
+      "name": "Rym Bourguiba",
+      "title": "Automotive Software Engineer chez Valeo",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/ktouel?trk=pub-pbmap",
+      "name": "Khaled TOUEL",
+      "title": "Développeur chez Alliance Group",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/sanjay-yaluguli-1a58772a?trk=pub-pbmap",
+      "name": "Sanjay Yaluguli",
+      "title": "Software Engineer",
+      "company": "Valeo"
+    },
+    {
+      "link": "https://de.linkedin.com/in/rihab-ben-rhouma-98322233?trk=pub-pbmap",
+      "name": "Rihab Ben Rhouma",
+      "title": "Junior PLM Consultant",
+      "company": "PITERION Group"
+    },
+    {
+      "link": "https://de.linkedin.com/in/farkao?trk=pub-pbmap",
+      "name": "Farouk Mezghich",
+      "title": "Corporate Territory Manager",
+      "company": "Microsoft"
+    },
+    {
+      "link": "https://de.linkedin.com/in/nesrineabidi?trk=pub-pbmap",
+      "name": "Nesrine Abidi",
+      "title": "Datacenter Solution Professional",
+      "company": "Microsoft"
+    },
+    {
+      "link": "https://de.linkedin.com/in/amin-sakka-6b202279?trk=pub-pbmap",
+      "name": "Amin Sakka",
+      "title": "Research Assistant bei TUM CREATE",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/yassin-ben-naceur-73003226?trk=pub-pbmap",
+      "name": "Yassin Ben Naceur",
+      "title": "Freelancer",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/anis-chihi-243a9a83?trk=pub-pbmap",
+      "name": "Anis Chihi",
+      "title": "Werkstudent bei Munich Consulting Group GmbH",
+      "company": null
+    },
+    {
+      "link": "https://de.linkedin.com/in/smtibaa?trk=pub-pbmap",
+      "name": "Sabri Mtibaa, Dr.-Ing.",
+      "title": "Technical Manager",
+      "company": "Sofrecom Tunisia"
+    }
+  ]
+}
